@@ -1,0 +1,3 @@
+[submodule "lib/stemming"]
+	path = lib/stemming
+	url = https://github.com/OleanderSoftware/OleanderStemmingLibrary.git

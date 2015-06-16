@@ -1,7 +1,6 @@
 #include "document-frequency.hh"
 
-#include <boost/tokenizer.hpp>
-#include <algorithm>
+#include "text-processor.hh"
 
 DocumentFrequency::DocumentFrequency(const std::string& identifier,
                                      const std::string& content,
@@ -9,16 +8,15 @@ DocumentFrequency::DocumentFrequency(const std::string& identifier,
   : _identifier(identifier)
   , _word_count(0)
 {
-  boost::tokenizer<> tokens(content);
+  // Process content.
+  TextProcessor::parse(content,
+                       [&] (const std::string& word)
+                       {
+                         _tf.update(word);
+                         _word_count++;
+                       });
 
-  for (auto it = tokens.begin(); it != tokens.end(); ++it)
-  {
-    std::string word(*it);
-    std::transform(word.begin(), word.end(), word.begin(), ::tolower);
-    _tf.update(word);
-    _word_count++;
-  }
-
+  // Normalize frequencies and increment word appearance in dataset.
   _tf.map([&] (const std::string& word, double freq)
           {
             idf.update(word);
