@@ -1,5 +1,6 @@
 #include "frequency-table.hh"
 
+#include <iostream>
 #include <cmath>
 
 void FrequencyTable::update(size_t index)
@@ -41,6 +42,18 @@ double FrequencyTable::norm() const
   return sqrt(norm);
 }
 
+double FrequencyTable::norm(const FrequencyTable& ft) const
+{
+  double norm = 0;
+  iter([&] (size_t index, double freq)
+       {
+         auto iter = ft._table.find(index);
+         if (iter != ft._table.end())
+           norm += freq * freq;
+       });
+  return sqrt(norm);
+}
+
 double FrequencyTable::dot(const FrequencyTable& ft) const
 {
   double sum = 0;
@@ -51,6 +64,11 @@ double FrequencyTable::dot(const FrequencyTable& ft) const
            sum += freq * iter->second;
        });
   return sum;
+}
+
+double FrequencyTable::cosine_similarity(const FrequencyTable& ft) const
+{
+  return dot(ft) / (norm() * ft.norm(*this));
 }
 
 void FrequencyTable::dump(std::ostream& os, const WordCache& cache) const

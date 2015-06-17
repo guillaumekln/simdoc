@@ -18,7 +18,10 @@ public:
   void multiply_by(const FrequencyTable& ft);
 
   double norm() const;
+  double norm(const FrequencyTable& ft) const;
   double dot(const FrequencyTable& ft) const;
+
+  double cosine_similarity(const FrequencyTable& ft) const;
 
   void dump(std::ostream& os, const WordCache& cache) const;
 
