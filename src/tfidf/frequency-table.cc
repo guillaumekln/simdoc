@@ -38,7 +38,7 @@ double FrequencyTable::norm() const
 {
   double norm = 0;
   iter([&] (size_t, double freq) { norm += freq * freq; });
-  return norm;
+  return sqrt(norm);
 }
 
 double FrequencyTable::dot(const FrequencyTable& ft) const
