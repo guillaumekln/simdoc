@@ -6,6 +6,7 @@
 
 # include "document-frequency.hh"
 # include "frequency-table.hh"
+# include "result-document.hh"
 # include "word-cache.hh"
 
 class TfIdf
@@ -13,6 +14,8 @@ class TfIdf
 public:
   void add(const std::string& identifier, const std::string& document);
   void compute_tfidf();
+
+  std::vector<ResultDocument> ranked_similarity(const std::string& document, size_t max_result);
 
   void dump(std::ostream& os) const;
 

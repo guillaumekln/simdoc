@@ -14,8 +14,7 @@ public:
                     const std::string& content,
                     FrequencyTable& idf,
                     WordCache& cache);
-  DocumentFrequency(const std::string& identifier,
-                    const std::string& content,
+  DocumentFrequency(const std::string& content,
                     WordCache& cache);
 
   void compute_tfidf(const FrequencyTable& idf);

@@ -26,11 +26,9 @@ DocumentFrequency::DocumentFrequency(const std::string& identifier,
           });
 }
 
-DocumentFrequency::DocumentFrequency(const std::string& identifier,
-                                     const std::string& content,
+DocumentFrequency::DocumentFrequency(const std::string& content,
                                      WordCache& cache)
-  : _identifier(identifier)
-  , _word_count(0)
+  : _word_count(0)
 {
   TextProcessor::parse(content,
                        [&] (const std::string& word)

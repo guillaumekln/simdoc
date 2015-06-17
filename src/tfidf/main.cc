@@ -14,7 +14,8 @@ int main(int argc, char* argv[])
   fs.fetch(tfidf);
   tfidf.compute_tfidf();
 
-  tfidf.dump(std::cout);
+  for (const ResultDocument& res: tfidf.ranked_similarity("life learning", 5))
+    std::cout << res << std::endl;
 
   return 0;
 }
