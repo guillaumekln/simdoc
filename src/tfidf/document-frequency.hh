@@ -5,13 +5,15 @@
 # include <string>
 
 # include "frequency-table.hh"
+# include "word-cache.hh"
 
 class DocumentFrequency
 {
 public:
   DocumentFrequency(const std::string& identifier,
                     const std::string& content,
-                    FrequencyTable& idf);
+                    FrequencyTable& idf,
+                    WordCache& cache);
 
   void dump(std::ostream& os) const;
 

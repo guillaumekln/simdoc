@@ -4,7 +4,8 @@
 
 DocumentFrequency::DocumentFrequency(const std::string& identifier,
                                      const std::string& content,
-                                     FrequencyTable& idf)
+                                     FrequencyTable& idf,
+                                     WordCache& cache)
   : _identifier(identifier)
   , _word_count(0)
 {
@@ -12,14 +13,15 @@ DocumentFrequency::DocumentFrequency(const std::string& identifier,
   TextProcessor::parse(content,
                        [&] (const std::string& word)
                        {
-                         _tf.update(word);
+                         size_t id = cache.add(word);
+                         _tf.update(id);
                          _word_count++;
                        });
 
   // Normalize frequencies and increment word appearance in dataset.
-  _tf.map([&] (const std::string& word, double freq)
+  _tf.map([&] (size_t index, double freq)
           {
-            idf.update(word);
+            idf.update(index);
             return freq / _word_count;
           });
 }

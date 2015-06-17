@@ -15,6 +15,7 @@ include_directories(
 
 add_executable(tfidf
   ${PROJECT_SOURCE_DIR}/src/tfidf/text-processor.cc
+  ${PROJECT_SOURCE_DIR}/src/tfidf/word-cache.cc
   ${PROJECT_SOURCE_DIR}/src/tfidf/frequency-table.cc
   ${PROJECT_SOURCE_DIR}/src/tfidf/document-frequency.cc
   ${PROJECT_SOURCE_DIR}/src/tfidf/filesystem.cc

@@ -4,12 +4,12 @@
 
 void TfIdf::add(const std::string& identifier, const std::string& document)
 {
-  _documents.emplace_back(identifier, document, _idf);
+  _documents.emplace_back(identifier, document, _idf, _cache);
 }
 
 void TfIdf::compute_idf()
 {
-  _idf.map([&] (const std::string&, double freq) { return 1 + log(_documents.size() / freq); });
+  _idf.map([&] (size_t, double freq) { return 1 + log(_documents.size() / freq); });
 }
 
 void TfIdf::dump(std::ostream& os) const

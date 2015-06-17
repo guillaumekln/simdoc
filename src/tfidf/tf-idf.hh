@@ -6,6 +6,7 @@
 
 # include "document-frequency.hh"
 # include "frequency-table.hh"
+# include "word-cache.hh"
 
 class TfIdf
 {
@@ -17,6 +18,7 @@ public:
 
 private:
   std::vector<DocumentFrequency> _documents;
+  WordCache _cache;
   FrequencyTable _idf;
 };
 

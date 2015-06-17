@@ -1,11 +1,11 @@
 #include "frequency-table.hh"
 
-void FrequencyTable::update(const std::string& word)
+void FrequencyTable::update(size_t index)
 {
-  _table[word]++;
+  _table[index]++;
 }
 
-void FrequencyTable::map(std::function<double(const std::string&, double)> f)
+void FrequencyTable::map(std::function<double(size_t, double)> f)
 {
   for (auto it = _table.begin(); it != _table.end(); ++it)
   {
@@ -13,10 +13,15 @@ void FrequencyTable::map(std::function<double(const std::string&, double)> f)
   }
 }
 
-void FrequencyTable::dump(std::ostream& os) const
+void FrequencyTable::iter(std::function<void(size_t, double)> f) const
 {
   for (auto it = _table.cbegin(); it != _table.cend(); ++it)
   {
-    os << it->first << ": " << it->second << std::endl;
+    f(it->first, it->second);
   }
+}
+
+void FrequencyTable::dump(std::ostream& os) const
+{
+  iter([&] (size_t id, double freq) { os << id << ": " << freq << std::endl; });
 }
