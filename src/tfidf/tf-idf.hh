@@ -12,7 +12,7 @@ class TfIdf
 {
 public:
   void add(const std::string& identifier, const std::string& document);
-  void compute_idf();
+  void compute_tfidf();
 
   void dump(std::ostream& os) const;
 

@@ -15,7 +15,9 @@ public:
                     FrequencyTable& idf,
                     WordCache& cache);
 
-  void dump(std::ostream& os) const;
+  void compute_tfidf(const FrequencyTable& idf);
+
+  void dump(std::ostream& os, const WordCache& cache) const;
 
 private:
   FrequencyTable _tf;

@@ -26,9 +26,14 @@ DocumentFrequency::DocumentFrequency(const std::string& identifier,
           });
 }
 
-void DocumentFrequency::dump(std::ostream& os) const
+void DocumentFrequency::compute_tfidf(const FrequencyTable& idf)
+{
+  _tf.multiply_by(idf);
+}
+
+void DocumentFrequency::dump(std::ostream& os, const WordCache& cache) const
 {
   os << _identifier << std::endl;
-  _tf.dump(os);
+  _tf.dump(os, cache);
   os << std::endl;
 }

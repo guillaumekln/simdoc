@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
   TfIdf tfidf;
   Filesystem fs(argv[1], true);
   fs.fetch(tfidf);
-  tfidf.compute_idf();
+  tfidf.compute_tfidf();
 
   tfidf.dump(std::cout);
 
