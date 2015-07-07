@@ -13,7 +13,7 @@ include_directories(
   ${Boost_INCLUDE_DIRS}
   )
 
-add_executable(tfidf
+add_executable(simdoc
   ${PROJECT_SOURCE_DIR}/src/tfidf/text-processor.cc
   ${PROJECT_SOURCE_DIR}/src/tfidf/result-document.cc
   ${PROJECT_SOURCE_DIR}/src/tfidf/word-cache.cc
@@ -24,6 +24,6 @@ add_executable(tfidf
   ${PROJECT_SOURCE_DIR}/src/tfidf/main.cc
   )
 
-target_link_libraries(tfidf
+target_link_libraries(simdoc
   ${Boost_LIBRARIES}
   )
