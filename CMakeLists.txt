@@ -14,14 +14,14 @@ include_directories(
   )
 
 add_executable(simdoc
-  ${PROJECT_SOURCE_DIR}/src/tfidf/text-processor.cc
-  ${PROJECT_SOURCE_DIR}/src/tfidf/result-document.cc
-  ${PROJECT_SOURCE_DIR}/src/tfidf/word-cache.cc
-  ${PROJECT_SOURCE_DIR}/src/tfidf/frequency-table.cc
-  ${PROJECT_SOURCE_DIR}/src/tfidf/document-frequency.cc
-  ${PROJECT_SOURCE_DIR}/src/tfidf/filesystem.cc
-  ${PROJECT_SOURCE_DIR}/src/tfidf/tf-idf.cc
-  ${PROJECT_SOURCE_DIR}/src/tfidf/main.cc
+  ${PROJECT_SOURCE_DIR}/src/text-processor.cc
+  ${PROJECT_SOURCE_DIR}/src/result-document.cc
+  ${PROJECT_SOURCE_DIR}/src/word-cache.cc
+  ${PROJECT_SOURCE_DIR}/src/frequency-table.cc
+  ${PROJECT_SOURCE_DIR}/src/document-frequency.cc
+  ${PROJECT_SOURCE_DIR}/src/filesystem.cc
+  ${PROJECT_SOURCE_DIR}/src/tf-idf.cc
+  ${PROJECT_SOURCE_DIR}/src/main.cc
   )
 
 target_link_libraries(simdoc
