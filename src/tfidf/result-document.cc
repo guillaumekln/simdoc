@@ -13,6 +13,7 @@ bool ResultDocument::operator<(const ResultDocument& rd) const
 
 std::ostream& operator<<(std::ostream& os, const ResultDocument& rd)
 {
-  os << rd._document;
+  os << "{\"score\":" << rd._score
+     << ",\"file\":\"" << rd._document << "\"}";
   return os;
 }
