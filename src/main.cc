@@ -3,6 +3,8 @@
 #include <fstream>
 #include <chrono>
 
+#include <tbb/task_scheduler_init.h>
+
 #include "filesystem.hh"
 
 class Timer
@@ -26,14 +28,16 @@ private:
 
 int main(int argc, char* argv[])
 {
-  if (argc != 3)
+  if (argc != 4)
   {
-    std::cerr << "usage: " << argv[0] << " count /path/to/repository" << std::endl;
+    std::cerr << "usage: " << argv[0] << " nthreads count /path/to/repository" << std::endl;
     return 1;
   }
 
+  tbb::task_scheduler_init init(std::stoul(argv[1], 0, 10));
+
   TfIdf tfidf;
-  Filesystem fs(argv[2], true);
+  Filesystem fs(argv[3], true);
   std::cerr << "Compute TF-IDF..." << std::endl;
 
   {
@@ -42,7 +46,7 @@ int main(int argc, char* argv[])
     tfidf.compute_tfidf();
   }
 
-  size_t count = std::stoul(argv[1], 0, 10);
+  size_t count = std::stoul(argv[2], 0, 10);
   std::vector<ResultDocument> res;
   std::cerr << "Compute similarity..." << std::endl;
 

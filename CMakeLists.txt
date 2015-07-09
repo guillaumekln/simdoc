@@ -7,10 +7,14 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -pedantic -Wextra -std=c++11")
 
 find_package(Boost REQUIRED COMPONENTS system filesystem thread)
 
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${PROJECT_SOURCE_DIR}/cmake/")
+find_package(TBB REQUIRED)
+
 # Binaries
 include_directories(
   ${PROJECT_SOURCE_DIR}/lib/stemming
   ${Boost_INCLUDE_DIRS}
+  ${TBB_INCLUDE_DIRS}
   )
 
 add_executable(simdoc
@@ -26,4 +30,5 @@ add_executable(simdoc
 
 target_link_libraries(simdoc
   ${Boost_LIBRARIES}
+  ${TBB_LIBRARIES}
   )
