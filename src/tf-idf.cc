@@ -18,26 +18,25 @@ void TfIdf::compute_tfidf()
   }
 }
 
-std::vector<ResultDocument> TfIdf::ranked_similarity(const std::string& document, size_t max_results)
+void TfIdf::compute_similarity(std::vector<ResultDocument>& res, size_t max_results) const
 {
-  std::vector<ResultDocument> rank;
-  rank.reserve(_documents.size());
+  res.resize(_documents.size());
 
-  DocumentFrequency docfreq(document, _cache);
-  docfreq.compute_tfidf(_idf);
-
-  for (const DocumentFrequency& doc: _documents)
+  for (size_t i = 0; i < _documents.size(); ++i)
   {
-    double d = docfreq.similarity(doc);
-    rank.emplace_back(doc.identifier(), d);
+    res[i] = ResultDocument(_documents[i].identifier(), _documents.size() - 1);
+
+    for (const DocumentFrequency& doc2: _documents)
+    {
+      if (_documents[i] == doc2)
+        continue;
+
+      double score = _documents[i].similarity(doc2);
+      res[i].add_similar_doc(doc2.identifier(), score);
+    }
+
+    res[i].sort_similar_doc(max_results);
   }
-
-  std::sort(rank.begin(), rank.end());
-
-  if (max_results < rank.size())
-    rank.erase(rank.begin() + max_results, rank.end());
-
-  return rank;
 }
 
 void TfIdf::dump(std::ostream& os) const

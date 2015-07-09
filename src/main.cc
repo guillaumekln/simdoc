@@ -25,43 +25,37 @@ private:
 
 int main(int argc, char* argv[])
 {
-  if (argc != 4)
+  if (argc != 3)
   {
-    std::cerr << "usage: " << argv[0] << "count /path/to/doc /path/to/repository" << std::endl;
+    std::cerr << "usage: " << argv[0] << " count /path/to/repository" << std::endl;
     return 1;
   }
 
   TfIdf tfidf;
+  Filesystem fs(argv[2], true);
+  std::cerr << "Compute TF-IDF..." << std::endl;
 
   {
-    std::cerr << "Reading repository at " << argv[3] << "..." << std::endl;
     Timer timer;
-
-    Filesystem fs(argv[3], true);
     fs.fetch(tfidf);
-
     tfidf.compute_tfidf();
   }
 
-  std::vector<ResultDocument> ranked;
   size_t count = std::stoul(argv[1], 0, 10);
+  std::vector<ResultDocument> res;
+  std::cerr << "Compute similarity..." << std::endl;
 
   {
-    std::cerr << "Search for " << argv[1] << " similar documents..." << std::endl;
     Timer timer;
-
-    std::ifstream ifs(argv[2]);
-    std::string content((std::istreambuf_iterator<char>(ifs)), (std::istreambuf_iterator<char>()));
-
-    ranked = std::move(tfidf.ranked_similarity(content, count));
+    tfidf.compute_similarity(res, count);
   }
 
   std::cout << '[';
-  for (const ResultDocument& res: ranked)
+  for (auto it = res.cbegin(); it != res.cend(); it++)
   {
-    std::cout << res;
-    if (--count > 0)
+    if (it != res.cbegin())
       std::cout << ',';
+    std::cout << *it;
   }
   std::cout << ']' << std::endl;
 

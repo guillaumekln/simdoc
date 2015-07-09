@@ -56,6 +56,16 @@ const std::string& DocumentFrequency::identifier() const
   return _identifier;
 }
 
+bool DocumentFrequency::operator==(const DocumentFrequency& doc) const
+{
+  return _identifier == doc._identifier;
+}
+
+bool DocumentFrequency::operator!=(const DocumentFrequency& doc) const
+{
+  return !(*this == doc);
+}
+
 void DocumentFrequency::dump(std::ostream& os, const WordCache& cache) const
 {
   os << _identifier << std::endl;

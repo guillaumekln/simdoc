@@ -22,6 +22,9 @@ public:
 
   const std::string& identifier() const;
 
+  bool operator==(const DocumentFrequency& doc) const;
+  bool operator!=(const DocumentFrequency& doc) const;
+
   void dump(std::ostream& os, const WordCache& cache) const;
 
 private:
