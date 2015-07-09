@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <ctime>
+#include <chrono>
 
 #include "filesystem.hh"
 
@@ -9,18 +9,19 @@ class Timer
 {
 public:
   Timer()
-    : _start(std::clock())
+    : _t0(std::chrono::steady_clock::now())
   {
   }
 
   ~Timer()
   {
-    std::cerr << "(done in "
-              << (std::clock() - _start) / (double)(CLOCKS_PER_SEC / 1000) << " ms)"
-              << std::endl;
+    auto diff = std::chrono::steady_clock::now() - _t0;
+    double ms = std::chrono::duration_cast<std::chrono::milliseconds>(diff).count();
+    std::cerr << "Done in " << ms / 1000.0 << " seconds." << std::endl;
   }
+
 private:
-  std::clock_t _start;
+  std::chrono::steady_clock::time_point _t0;
 };
 
 int main(int argc, char* argv[])
