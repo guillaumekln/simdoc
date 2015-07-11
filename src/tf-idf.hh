@@ -8,7 +8,6 @@
 # include "document-frequency.hh"
 # include "frequency-table.hh"
 # include "result-document.hh"
-# include "word-cache.hh"
 
 class TfIdf
 {
@@ -17,11 +16,8 @@ public:
   void compute_tfidf();
   void compute_similarity(std::vector<ResultDocument>& res, size_t max_result) const;
 
-  void dump(std::ostream& os) const;
-
 private:
   std::vector<DocumentFrequency> _documents;
-  WordCache _cache;
   FrequencyTable _idf;
 };
 

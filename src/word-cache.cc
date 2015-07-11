@@ -2,8 +2,15 @@
 
 #include <stdexcept>
 
+WordCache& WordCache::get_instance()
+{
+  static WordCache cache;
+  return cache;
+}
+
 size_t WordCache::add(const std::string& word)
 {
+  std::lock_guard<std::mutex> lock(_mutex);
   auto right_iter = _cache.right.find(word);
 
   if (right_iter == _cache.right.end())

@@ -70,8 +70,3 @@ double FrequencyTable::cosine_similarity(const FrequencyTable& ft) const
 {
   return dot(ft) / (norm() * ft.norm(*this));
 }
-
-void FrequencyTable::dump(std::ostream& os, const WordCache& cache) const
-{
-  iter([&] (size_t id, double freq) { os << cache.get(id) << ": " << freq << std::endl; });
-}

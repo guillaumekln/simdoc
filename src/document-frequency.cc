@@ -1,11 +1,11 @@
 #include "document-frequency.hh"
 
 #include "text-processor.hh"
+#include "word-cache.hh"
 
 DocumentFrequency::DocumentFrequency(const std::string& identifier,
                                      const std::string& content,
-                                     FrequencyTable& idf,
-                                     WordCache& cache)
+                                     FrequencyTable& idf)
   : _identifier(identifier)
   , _word_count(0)
 {
@@ -13,7 +13,7 @@ DocumentFrequency::DocumentFrequency(const std::string& identifier,
   TextProcessor::parse(content,
                        [&] (const std::string& word)
                        {
-                         size_t id = cache.add(word);
+                         size_t id = WordCache::get_instance().add(word);
                          _tf.update(id);
                          _word_count++;
                        });
@@ -24,21 +24,6 @@ DocumentFrequency::DocumentFrequency(const std::string& identifier,
             idf.update(index);
             return freq / _word_count;
           });
-}
-
-DocumentFrequency::DocumentFrequency(const std::string& content,
-                                     WordCache& cache)
-  : _word_count(0)
-{
-  TextProcessor::parse(content,
-                       [&] (const std::string& word)
-                       {
-                         size_t id = cache.add(word);
-                         _tf.update(id);
-                         _word_count++;
-                       });
-
-  _tf.map([&] (size_t, double freq) { return freq / _word_count; });
 }
 
 void DocumentFrequency::compute_tfidf(const FrequencyTable& idf)
@@ -64,11 +49,4 @@ bool DocumentFrequency::operator==(const DocumentFrequency& doc) const
 bool DocumentFrequency::operator!=(const DocumentFrequency& doc) const
 {
   return !(*this == doc);
-}
-
-void DocumentFrequency::dump(std::ostream& os, const WordCache& cache) const
-{
-  os << _identifier << std::endl;
-  _tf.dump(os, cache);
-  os << std::endl;
 }

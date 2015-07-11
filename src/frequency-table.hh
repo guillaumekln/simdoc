@@ -6,8 +6,6 @@
 # include <ostream>
 # include <string>
 
-# include "word-cache.hh"
-
 class FrequencyTable
 {
 public:
@@ -22,8 +20,6 @@ public:
   double dot(const FrequencyTable& ft) const;
 
   double cosine_similarity(const FrequencyTable& ft) const;
-
-  void dump(std::ostream& os, const WordCache& cache) const;
 
 private:
   std::unordered_map<size_t, double> _table;

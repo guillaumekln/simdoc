@@ -5,17 +5,13 @@
 # include <string>
 
 # include "frequency-table.hh"
-# include "word-cache.hh"
 
 class DocumentFrequency
 {
 public:
   DocumentFrequency(const std::string& identifier,
                     const std::string& content,
-                    FrequencyTable& idf,
-                    WordCache& cache);
-  DocumentFrequency(const std::string& content,
-                    WordCache& cache);
+                    FrequencyTable& idf);
 
   void compute_tfidf(const FrequencyTable& idf);
   double similarity(const DocumentFrequency& doc) const;
@@ -24,8 +20,6 @@ public:
 
   bool operator==(const DocumentFrequency& doc) const;
   bool operator!=(const DocumentFrequency& doc) const;
-
-  void dump(std::ostream& os, const WordCache& cache) const;
 
 private:
   FrequencyTable _tf;

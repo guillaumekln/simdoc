@@ -8,7 +8,7 @@
 
 void TfIdf::add(const std::string& identifier, const std::string& document)
 {
-  _documents.emplace_back(identifier, document, _idf, _cache);
+  _documents.emplace_back(identifier, document, _idf);
 }
 
 void TfIdf::compute_tfidf()
@@ -48,12 +48,4 @@ void TfIdf::compute_similarity(std::vector<ResultDocument>& res, size_t max_resu
                         res[i].sort_similar_doc(max_results);
                       }
                     });
-}
-
-void TfIdf::dump(std::ostream& os) const
-{
-  for (const DocumentFrequency& doc: _documents)
-  {
-    doc.dump(os, _cache);
-  }
 }
