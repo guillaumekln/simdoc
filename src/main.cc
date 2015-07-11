@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -57,6 +58,8 @@ int main(int argc, char* argv[])
     Timer timer("Compute similarity");
     tfidf.compute_similarity(res, count);
   }
+
+  std::sort(res.begin(), res.end());
 
   std::cout << '[';
   for (auto it = res.cbegin(); it != res.cend(); it++)
