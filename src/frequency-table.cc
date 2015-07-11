@@ -70,3 +70,11 @@ double FrequencyTable::cosine_similarity(const FrequencyTable& ft) const
 {
   return dot(ft) / (norm() * ft.norm(*this));
 }
+
+void FrequencyTable::merge(const FrequencyTable& ft)
+{
+  for (auto it = ft._table.cbegin(); it != ft._table.cend(); it++)
+  {
+    _table[it->first] += it->second;
+  }
+}

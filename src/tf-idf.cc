@@ -49,3 +49,10 @@ void TfIdf::compute_similarity(std::vector<ResultDocument>& res, size_t max_resu
                       }
                     });
 }
+
+void TfIdf::merge(const TfIdf& tfidf)
+{
+  _documents.reserve(_documents.size() + tfidf._documents.size());
+  _documents.insert(_documents.end(), tfidf._documents.begin(), tfidf._documents.end());
+  _idf.merge(tfidf._idf);
+}

@@ -16,6 +16,8 @@ public:
   void compute_tfidf();
   void compute_similarity(std::vector<ResultDocument>& res, size_t max_result) const;
 
+  void merge(const TfIdf& tfidf);
+
 private:
   std::vector<DocumentFrequency> _documents;
   FrequencyTable _idf;

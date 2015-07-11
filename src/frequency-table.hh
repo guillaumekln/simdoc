@@ -21,6 +21,8 @@ public:
 
   double cosine_similarity(const FrequencyTable& ft) const;
 
+  void merge(const FrequencyTable& ft);
+
 private:
   std::unordered_map<size_t, double> _table;
 };
