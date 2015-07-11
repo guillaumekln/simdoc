@@ -32,18 +32,51 @@ int main(int argc, char* argv[])
 {
   if (argc != 4)
   {
-    std::cerr << "usage: " << argv[0] << " nthreads count /path/to/repository" << std::endl;
+    std::cerr << "usage: " << argv[0]
+              << " nb_threads nb_similar_docs /path/to/repository" << std::endl;
     return 1;
   }
 
-  tbb::task_scheduler_init init(std::stoul(argv[1], 0, 10));
+  unsigned long nb_threads;
+  unsigned long nb_sim;
 
-  TfIdf tfidf;
-  Filesystem fs(argv[3], true);
-
+  try
   {
-    Timer timer("Process documents");
-    fs.fetch(tfidf);
+    nb_threads = std::stoul(argv[1], 0, 10);
+  }
+  catch (std::exception& e)
+  {
+    std::cerr << "error: invalid thread count." << std::endl;
+    return 1;
+  }
+
+  try
+  {
+    nb_sim = std::stoul(argv[2], 0, 10);
+  }
+  catch (std::exception& e)
+  {
+    std::cerr << "error: invalid similar documents count." << std::endl;
+    return 1;
+  }
+
+  tbb::task_scheduler_init init(nb_threads);
+  std::vector<ResultDocument> res;
+  TfIdf tfidf;
+
+  try
+  {
+    Filesystem fs(argv[3], true);
+
+    {
+      Timer timer("Process documents");
+      fs.fetch(tfidf);
+    }
+  }
+  catch (std::exception& e)
+  {
+    std::cerr << "error: " << e.what() << std::endl;
+    return 1;
   }
 
   {
@@ -51,12 +84,9 @@ int main(int argc, char* argv[])
     tfidf.compute_tfidf();
   }
 
-  size_t count = std::stoul(argv[2], 0, 10);
-  std::vector<ResultDocument> res;
-
   {
     Timer timer("Compute similarity");
-    tfidf.compute_similarity(res, count);
+    tfidf.compute_similarity(res, nb_sim);
   }
 
   std::sort(res.begin(), res.end());
