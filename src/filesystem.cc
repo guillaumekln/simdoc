@@ -44,6 +44,8 @@ void Filesystem::fetch(TfIdf& tfidf)
 {
   fetch_rec(_directory);
 
+  std::cerr << '(' << _files.size() << " documents to process)" << std::endl;
+
   tbb::parallel_for(tbb::blocked_range<size_t>(0, _files.size()),
                     [&](const tbb::blocked_range<size_t>& r)
                     {
