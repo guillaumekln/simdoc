@@ -9,9 +9,9 @@
 class FrequencyTable
 {
 public:
-  void update(size_t index);
-  void map(std::function<double(size_t, double)> f);
-  void iter(std::function<void(size_t, double)> f) const;
+  void update(const std::string& word);
+  void map(std::function<double(const std::string&, double)> f);
+  void iter(std::function<void(const std::string&, double)> f) const;
 
   void multiply_by(const FrequencyTable& ft);
 
@@ -24,7 +24,7 @@ public:
   void merge(const FrequencyTable& ft);
 
 private:
-  std::unordered_map<size_t, double> _table;
+  std::unordered_map<std::string, double> _table;
 };
 
 # endif /* !FREQUENCY_TABEL_HH */

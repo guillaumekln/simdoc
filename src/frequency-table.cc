@@ -3,12 +3,12 @@
 #include <iostream>
 #include <cmath>
 
-void FrequencyTable::update(size_t index)
+void FrequencyTable::update(const std::string& word)
 {
-  _table[index]++;
+  _table[word]++;
 }
 
-void FrequencyTable::map(std::function<double(size_t, double)> f)
+void FrequencyTable::map(std::function<double(const std::string&, double)> f)
 {
   for (auto it = _table.begin(); it != _table.end(); ++it)
   {
@@ -16,7 +16,7 @@ void FrequencyTable::map(std::function<double(size_t, double)> f)
   }
 }
 
-void FrequencyTable::iter(std::function<void(size_t, double)> f) const
+void FrequencyTable::iter(std::function<void(const std::string&, double)> f) const
 {
   for (auto it = _table.cbegin(); it != _table.cend(); ++it)
   {
@@ -26,9 +26,9 @@ void FrequencyTable::iter(std::function<void(size_t, double)> f) const
 
 void FrequencyTable::multiply_by(const FrequencyTable& ft)
 {
-  map([&] (size_t index, double freq)
+  map([&] (const std::string& word, double freq)
       {
-        auto iter = ft._table.find(index);
+        auto iter = ft._table.find(word);
         if (iter != ft._table.end())
           return freq * iter->second;
         return freq;
@@ -38,16 +38,16 @@ void FrequencyTable::multiply_by(const FrequencyTable& ft)
 double FrequencyTable::norm() const
 {
   double norm = 0;
-  iter([&] (size_t, double freq) { norm += freq * freq; });
+  iter([&] (const std::string&, double freq) { norm += freq * freq; });
   return sqrt(norm);
 }
 
 double FrequencyTable::norm(const FrequencyTable& ft) const
 {
   double norm = 0;
-  iter([&] (size_t index, double freq)
+  iter([&] (const std::string& word, double freq)
        {
-         auto iter = ft._table.find(index);
+         auto iter = ft._table.find(word);
          if (iter != ft._table.end())
            norm += freq * freq;
        });
@@ -57,9 +57,9 @@ double FrequencyTable::norm(const FrequencyTable& ft) const
 double FrequencyTable::dot(const FrequencyTable& ft) const
 {
   double sum = 0;
-  iter([&] (size_t index, double freq)
+  iter([&] (const std::string& word, double freq)
        {
-         auto iter = ft._table.find(index);
+         auto iter = ft._table.find(word);
          if (iter != ft._table.end())
            sum += freq * iter->second;
        });

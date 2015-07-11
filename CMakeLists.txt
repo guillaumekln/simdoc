@@ -20,7 +20,6 @@ include_directories(
 add_executable(simdoc
   ${PROJECT_SOURCE_DIR}/src/text-processor.cc
   ${PROJECT_SOURCE_DIR}/src/result-document.cc
-  ${PROJECT_SOURCE_DIR}/src/word-cache.cc
   ${PROJECT_SOURCE_DIR}/src/frequency-table.cc
   ${PROJECT_SOURCE_DIR}/src/document-frequency.cc
   ${PROJECT_SOURCE_DIR}/src/filesystem.cc

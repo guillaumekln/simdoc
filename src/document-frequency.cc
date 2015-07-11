@@ -1,7 +1,6 @@
 #include "document-frequency.hh"
 
 #include "text-processor.hh"
-#include "word-cache.hh"
 
 DocumentFrequency::DocumentFrequency(const std::string& identifier,
                                      const std::string& content,
@@ -13,15 +12,14 @@ DocumentFrequency::DocumentFrequency(const std::string& identifier,
   TextProcessor::parse(content,
                        [&] (const std::string& word)
                        {
-                         size_t id = WordCache::get_instance().add(word);
-                         _tf.update(id);
+                         _tf.update(word);
                          _word_count++;
                        });
 
   // Normalize frequencies and increment word appearance in dataset.
-  _tf.map([&] (size_t index, double freq)
+  _tf.map([&] (const std::string& word, double freq)
           {
-            idf.update(index);
+            idf.update(word);
             return freq / _word_count;
           });
 }

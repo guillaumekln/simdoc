@@ -13,7 +13,7 @@ void TfIdf::add(const std::string& identifier, const std::string& document)
 
 void TfIdf::compute_tfidf()
 {
-  _idf.map([&] (size_t, double freq) { return 1 + log(_documents.size() / freq); });
+  _idf.map([&] (const std::string&, double freq) { return 1 + log(_documents.size() / freq); });
 
   tbb::parallel_for(tbb::blocked_range<size_t>(0, _documents.size()),
                     [&](const tbb::blocked_range<size_t>& r)
