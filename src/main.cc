@@ -10,9 +10,10 @@
 class Timer
 {
 public:
-  Timer()
+  Timer(const std::string& job)
     : _t0(std::chrono::steady_clock::now())
   {
+    std::cerr << job << "..." << std::endl;
   }
 
   ~Timer()
@@ -38,20 +39,22 @@ int main(int argc, char* argv[])
 
   TfIdf tfidf;
   Filesystem fs(argv[3], true);
-  std::cerr << "Compute TF-IDF..." << std::endl;
 
   {
-    Timer timer;
+    Timer timer("Process documents");
     fs.fetch(tfidf);
+  }
+
+  {
+    Timer timer("Compute TF-IDF");
     tfidf.compute_tfidf();
   }
 
   size_t count = std::stoul(argv[2], 0, 10);
   std::vector<ResultDocument> res;
-  std::cerr << "Compute similarity..." << std::endl;
 
   {
-    Timer timer;
+    Timer timer("Compute similarity");
     tfidf.compute_similarity(res, count);
   }
 
