@@ -12,12 +12,12 @@ class Filesystem: public DataSource
 {
 public:
   Filesystem(const std::string& directory, bool recursive = false);
-  void merge(TfIdf& main, const TfIdf& aux);
 
   virtual void fetch(TfIdf& tfidf) override;
 
 private:
   void fetch_rec(const boost::filesystem::path& dir);
+  void safe_merge(TfIdf& main, const TfIdf& aux);
 
   std::vector<boost::filesystem::path> _files;
   std::mutex _mutex;

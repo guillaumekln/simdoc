@@ -28,7 +28,7 @@ void Filesystem::fetch_rec(const boost::filesystem::path& dir)
   }
 }
 
-void Filesystem::merge(TfIdf& main, const TfIdf& aux)
+void Filesystem::safe_merge(TfIdf& main, const TfIdf& aux)
 {
   std::lock_guard<std::mutex> lock(_mutex);
   main.merge(aux);
@@ -45,8 +45,8 @@ void Filesystem::fetch(TfIdf& tfidf)
 
                       for (size_t i = r.begin(); i != r.end(); ++i)
                       {
-                        std::string path = _files[i].native();
-                        std::string filename = _files[i].filename().native();
+                        std::string path(_files[i].native());
+                        std::string filename(_files[i].filename().native());
 
                         std::ifstream ifs(path);
                         std::string content((std::istreambuf_iterator<char>(ifs)),
@@ -55,6 +55,6 @@ void Filesystem::fetch(TfIdf& tfidf)
                         aux.add(filename, content);
                       }
 
-                      merge(tfidf, aux);
+                      safe_merge(tfidf, aux);
                     });
 }
