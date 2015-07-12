@@ -11,10 +11,6 @@ Filesystem::Filesystem(const std::string& directory, bool recursive)
   : _directory(directory)
   , _recursive(recursive)
 {
-  if (!boost::filesystem::exists(_directory))
-  {
-    throw std::invalid_argument(directory + " directory does not exist");
-  }
 }
 
 void Filesystem::fetch_rec(const boost::filesystem::path& dir)

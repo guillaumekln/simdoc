@@ -41,24 +41,20 @@ int main(int argc, char* argv[])
     std::cerr << "error: missing directory to process." << std::endl;
     return 1;
   }
+  else if (!boost::filesystem::exists(vm["dir"].as<std::string>()))
+  {
+    std::cerr << "error: directory does not exist." << std::endl;
+    return 1;
+  }
 
+  Filesystem fs(vm["dir"].as<std::string>(), vm["recursive"].as<bool>());
   tbb::task_scheduler_init init(vm["threads"].as<unsigned>());
   std::vector<ResultDocument> res;
   TfIdf tfidf;
 
-  try
   {
-    Filesystem fs(vm["dir"].as<std::string>(), vm["recursive"].as<bool>());
-
-    {
-      Timer timer("Process documents");
-      fs.fetch(tfidf);
-    }
-  }
-  catch (std::exception& e)
-  {
-    std::cerr << "error: " << e.what() << std::endl;
-    return 1;
+    Timer timer("Process documents");
+    fs.fetch(tfidf);
   }
 
   {
