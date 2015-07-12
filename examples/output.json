@@ -1,1 +1,3802 @@
-[{"file":"10001.txt","similarTo":[{"score":0.931418,"file":"10015.txt"},{"score":0.930062,"file":"10013-8.txt"},{"score":0.930051,"file":"10013.txt"},{"score":0.928387,"file":"10018-8.txt"},{"score":0.928373,"file":"10018.txt"}]},{"file":"10002-8.txt","similarTo":[{"score":0.999999,"file":"10002.txt"},{"score":0.951001,"file":"canbe10.txt"},{"score":0.941587,"file":"10007.txt"},{"score":0.941585,"file":"10007-8.txt"},{"score":0.941472,"file":"10030-8.txt"}]},{"file":"10002.txt","similarTo":[{"score":0.999999,"file":"10002-8.txt"},{"score":0.951004,"file":"canbe10.txt"},{"score":0.941587,"file":"10007.txt"},{"score":0.941584,"file":"10007-8.txt"},{"score":0.941473,"file":"10030-8.txt"}]},{"file":"10003.txt","similarTo":[{"score":0.942887,"file":"10024.txt"},{"score":0.942886,"file":"10024-8.txt"},{"score":0.942667,"file":"crsnk10.txt"},{"score":0.942496,"file":"prhg10.txt"},{"score":0.942406,"file":"12373.txt"}]},{"file":"10004-8.txt","similarTo":[{"score":0.999979,"file":"10004.txt"},{"score":0.964533,"file":"wldsp10.txt"},{"score":0.959292,"file":"12373-8.txt"},{"score":0.959288,"file":"12373.txt"},{"score":0.958573,"file":"allyr10.txt"}]},{"file":"10004.txt","similarTo":[{"score":0.999985,"file":"10004-8.txt"},{"score":0.96452,"file":"wldsp10.txt"},{"score":0.9593,"file":"12373.txt"},{"score":0.959299,"file":"12373-8.txt"},{"score":0.958569,"file":"allyr10.txt"}]},{"file":"10005-8.txt","similarTo":[{"score":0.999997,"file":"10005.txt"},{"score":0.981607,"file":"12372.txt"},{"score":0.981594,"file":"12372-8.txt"},{"score":0.980092,"file":"12373-8.txt"},{"score":0.980086,"file":"12373.txt"}]},{"file":"10005.txt","similarTo":[{"score":0.999998,"file":"10005-8.txt"},{"score":0.981607,"file":"12372.txt"},{"score":0.981601,"file":"12372-8.txt"},{"score":0.980099,"file":"12373-8.txt"},{"score":0.980093,"file":"12373.txt"}]},{"file":"10006-8.txt","similarTo":[{"score":0.999962,"file":"10006.txt"},{"score":0.946619,"file":"12370-8.txt"},{"score":0.94661,"file":"12370.txt"},{"score":0.945813,"file":"tecom10.txt"},{"score":0.944801,"file":"10005-8.txt"}]},{"file":"10006.txt","similarTo":[{"score":0.999972,"file":"10006-8.txt"},{"score":0.946645,"file":"12370-8.txt"},{"score":0.946637,"file":"12370.txt"},{"score":0.945843,"file":"tecom10.txt"},{"score":0.944825,"file":"10005-8.txt"}]},{"file":"10007-8.txt","similarTo":[{"score":0.999997,"file":"10007.txt"},{"score":0.954074,"file":"10020-8.txt"},{"score":0.954072,"file":"10020.txt"},{"score":0.94274,"file":"batlf10.txt"},{"score":0.940611,"file":"rlsl210.txt"}]},{"file":"10007.txt","similarTo":[{"score":0.999998,"file":"10007-8.txt"},{"score":0.954074,"file":"10020-8.txt"},{"score":0.954073,"file":"10020.txt"},{"score":0.942747,"file":"batlf10.txt"},{"score":0.940618,"file":"rlsl210.txt"}]},{"file":"10008-8.txt","similarTo":[{"score":0.999985,"file":"10008.txt"},{"score":0.944147,"file":"10027.txt"},{"score":0.942323,"file":"canbe10.txt"},{"score":0.935969,"file":"crsnk10.txt"},{"score":0.935378,"file":"10023.txt"}]},{"file":"10008.txt","similarTo":[{"score":0.999995,"file":"10008-8.txt"},{"score":0.944152,"file":"10027.txt"},{"score":0.94233,"file":"canbe10.txt"},{"score":0.935974,"file":"crsnk10.txt"},{"score":0.935382,"file":"10023.txt"}]},{"file":"10009.txt","similarTo":[{"score":0.97702,"file":"12373.txt"},{"score":0.977019,"file":"12373-8.txt"},{"score":0.97664,"file":"crsnk10.txt"},{"score":0.971796,"file":"12374.txt"},{"score":0.971788,"file":"12374-8.txt"}]},{"file":"10010.txt","similarTo":[{"score":0.952242,"file":"10026.txt"},{"score":0.952234,"file":"10026-8.txt"},{"score":0.949851,"file":"allyr10.txt"},{"score":0.949715,"file":"10013.txt"},{"score":0.949703,"file":"10013-8.txt"}]},{"file":"10011-8.txt","similarTo":[{"score":0.999993,"file":"10011.txt"},{"score":0.601733,"file":"utrkj10.txt"},{"score":0.58353,"file":"12383.txt"},{"score":0.58345,"file":"12383-8.txt"},{"score":0.582912,"file":"12381.txt"}]},{"file":"10011.txt","similarTo":[{"score":0.999998,"file":"10011-8.txt"},{"score":0.601767,"file":"utrkj10.txt"},{"score":0.583556,"file":"12383.txt"},{"score":0.583476,"file":"12383-8.txt"},{"score":0.582941,"file":"12381.txt"}]},{"file":"10012-8.txt","similarTo":[{"score":0.99857,"file":"10012.txt"},{"score":0.952858,"file":"zncli10.txt"},{"score":0.952653,"file":"10031-8.txt"},{"score":0.952652,"file":"10031.txt"},{"score":0.951518,"file":"10009.txt"}]},{"file":"10012.txt","similarTo":[{"score":0.999561,"file":"10012-8.txt"},{"score":0.953417,"file":"zncli10.txt"},{"score":0.95319,"file":"10031-8.txt"},{"score":0.953189,"file":"10031.txt"},{"score":0.952055,"file":"10009.txt"}]},{"file":"10013-8.txt","similarTo":[{"score":0.999947,"file":"10013.txt"},{"score":0.983502,"file":"10018-8.txt"},{"score":0.983489,"file":"10018.txt"},{"score":0.980401,"file":"10014.txt"},{"score":0.980392,"file":"10014-8.txt"}]},{"file":"10013.txt","similarTo":[{"score":0.999953,"file":"10013-8.txt"},{"score":0.983503,"file":"10018-8.txt"},{"score":0.983502,"file":"10018.txt"},{"score":0.9804,"file":"10014.txt"},{"score":0.980386,"file":"10014-8.txt"}]},{"file":"10014-8.txt","similarTo":[{"score":0.999991,"file":"10014.txt"},{"score":0.982739,"file":"10015.txt"},{"score":0.981834,"file":"10017.txt"},{"score":0.981827,"file":"10017-8.txt"},{"score":0.981809,"file":"10016.txt"}]},{"file":"10014.txt","similarTo":[{"score":0.999993,"file":"10014-8.txt"},{"score":0.982738,"file":"10015.txt"},{"score":0.981825,"file":"10017.txt"},{"score":0.981813,"file":"10017-8.txt"},{"score":0.981808,"file":"10016.txt"}]},{"file":"10015.txt","similarTo":[{"score":0.98434,"file":"10014-8.txt"},{"score":0.984337,"file":"10014.txt"},{"score":0.982814,"file":"10016.txt"},{"score":0.982797,"file":"10016-8.txt"},{"score":0.982076,"file":"10033-8.txt"}]},{"file":"10016-8.txt","similarTo":[{"score":0.999983,"file":"10016.txt"},{"score":0.984872,"file":"10032.txt"},{"score":0.984871,"file":"10032-8.txt"},{"score":0.984242,"file":"10014-8.txt"},{"score":0.984235,"file":"10014.txt"}]},{"file":"10016.txt","similarTo":[{"score":0.999993,"file":"10016-8.txt"},{"score":0.984884,"file":"10032.txt"},{"score":0.984879,"file":"10032-8.txt"},{"score":0.984273,"file":"10014-8.txt"},{"score":0.984271,"file":"10014.txt"}]},{"file":"10017-8.txt","similarTo":[{"score":0.999992,"file":"10017.txt"},{"score":0.986319,"file":"10032-8.txt"},{"score":0.986312,"file":"10032.txt"},{"score":0.985079,"file":"10019-8.txt"},{"score":0.985076,"file":"10019.txt"}]},{"file":"10017.txt","similarTo":[{"score":0.999994,"file":"10017-8.txt"},{"score":0.986319,"file":"10032-8.txt"},{"score":0.986317,"file":"10032.txt"},{"score":0.985077,"file":"10019.txt"},{"score":0.985075,"file":"10019-8.txt"}]},{"file":"10018-8.txt","similarTo":[{"score":0.99996,"file":"10018.txt"},{"score":0.984985,"file":"10013-8.txt"},{"score":0.98498,"file":"10013.txt"},{"score":0.981135,"file":"10016.txt"},{"score":0.981127,"file":"10016-8.txt"}]},{"file":"10018.txt","similarTo":[{"score":0.999971,"file":"10018-8.txt"},{"score":0.98499,"file":"10013.txt"},{"score":0.984984,"file":"10013-8.txt"},{"score":0.981129,"file":"10016.txt"},{"score":0.981116,"file":"10016-8.txt"}]},{"file":"10019-8.txt","similarTo":[{"score":0.999972,"file":"10019.txt"},{"score":0.985589,"file":"10017-8.txt"},{"score":0.985583,"file":"10017.txt"},{"score":0.983463,"file":"10032-8.txt"},{"score":0.983455,"file":"10032.txt"}]},{"file":"10019.txt","similarTo":[{"score":0.999982,"file":"10019-8.txt"},{"score":0.985595,"file":"10017-8.txt"},{"score":0.985595,"file":"10017.txt"},{"score":0.983466,"file":"10032-8.txt"},{"score":0.983463,"file":"10032.txt"}]},{"file":"10020-8.txt","similarTo":[{"score":0.999866,"file":"10020.txt"},{"score":0.966809,"file":"canbe10.txt"},{"score":0.966746,"file":"12373.txt"},{"score":0.966745,"file":"12373-8.txt"},{"score":0.966518,"file":"12372.txt"}]},{"file":"10020.txt","similarTo":[{"score":0.999925,"file":"10020-8.txt"},{"score":0.966868,"file":"canbe10.txt"},{"score":0.966804,"file":"12373.txt"},{"score":0.966802,"file":"12373-8.txt"},{"score":0.966576,"file":"12372.txt"}]},{"file":"10021-8.txt","similarTo":[{"score":0.999981,"file":"10021.txt"},{"score":0.865324,"file":"10029-8.txt"},{"score":0.865324,"file":"10029.txt"},{"score":0.858091,"file":"penbr10.txt"},{"score":0.855178,"file":"cfrz10.txt"}]},{"file":"10021.txt","similarTo":[{"score":0.999986,"file":"10021-8.txt"},{"score":0.86534,"file":"10029-8.txt"},{"score":0.86534,"file":"10029.txt"},{"score":0.8581,"file":"penbr10.txt"},{"score":0.855195,"file":"cfrz10.txt"}]},{"file":"10022.txt","similarTo":[{"score":0.846443,"file":"ajtl10.txt"},{"score":0.841803,"file":"12385-8.txt"},{"score":0.8418,"file":"12385.txt"},{"score":0.841545,"file":"cfrz10.txt"},{"score":0.841496,"file":"10020-8.txt"}]},{"file":"10023.txt","similarTo":[{"score":0.970389,"file":"canbe10.txt"},{"score":0.968785,"file":"12373.txt"},{"score":0.968775,"file":"12373-8.txt"},{"score":0.965018,"file":"12372.txt"},{"score":0.964836,"file":"12372-8.txt"}]},{"file":"10024-8.txt","similarTo":[{"score":0.99989,"file":"10024.txt"},{"score":0.965786,"file":"prhg10.txt"},{"score":0.964037,"file":"12374-8.txt"},{"score":0.964016,"file":"12374.txt"},{"score":0.958009,"file":"12372.txt"}]},{"file":"10024.txt","similarTo":[{"score":0.999838,"file":"10024-8.txt"},{"score":0.96574,"file":"prhg10.txt"},{"score":0.964,"file":"12374.txt"},{"score":0.96397,"file":"12374-8.txt"},{"score":0.957966,"file":"12372.txt"}]},{"file":"10025-8.txt","similarTo":[{"score":0.999957,"file":"10025.txt"},{"score":0.909714,"file":"10021.txt"},{"score":0.909695,"file":"10021-8.txt"},{"score":0.907306,"file":"penbr10.txt"},{"score":0.900582,"file":"prhsb10.txt"}]},{"file":"10025.txt","similarTo":[{"score":0.999977,"file":"10025-8.txt"},{"score":0.909727,"file":"10021.txt"},{"score":0.9097,"file":"10021-8.txt"},{"score":0.907342,"file":"penbr10.txt"},{"score":0.900587,"file":"prhsb10.txt"}]},{"file":"10026-8.txt","similarTo":[{"score":0.999984,"file":"10026.txt"},{"score":0.97454,"file":"10019.txt"},{"score":0.974508,"file":"10019-8.txt"},{"score":0.971521,"file":"10017.txt"},{"score":0.971489,"file":"10017-8.txt"}]},{"file":"10026.txt","similarTo":[{"score":0.999993,"file":"10026-8.txt"},{"score":0.974515,"file":"10019.txt"},{"score":0.974478,"file":"10019-8.txt"},{"score":0.971497,"file":"10017.txt"},{"score":0.971461,"file":"10017-8.txt"}]},{"file":"10027.txt","similarTo":[{"score":0.922024,"file":"10008.txt"},{"score":0.922024,"file":"10008-8.txt"},{"score":0.91657,"file":"12372.txt"},{"score":0.916511,"file":"12372-8.txt"},{"score":0.915411,"file":"12373-8.txt"}]},{"file":"10028.txt","similarTo":[{"score":0.8532,"file":"10017-8.txt"},{"score":0.853142,"file":"10017.txt"},{"score":0.85292,"file":"10019-8.txt"},{"score":0.852865,"file":"10019.txt"},{"score":0.846603,"file":"10026-8.txt"}]},{"file":"10029-8.txt","similarTo":[{"score":0.999996,"file":"10029.txt"},{"score":0.817565,"file":"prhsb10.txt"},{"score":0.813344,"file":"10020.txt"},{"score":0.813342,"file":"10020-8.txt"},{"score":0.810829,"file":"pgjr10.txt"}]},{"file":"10029.txt","similarTo":[{"score":0.999998,"file":"10029-8.txt"},{"score":0.817566,"file":"prhsb10.txt"},{"score":0.813343,"file":"10020.txt"},{"score":0.813341,"file":"10020-8.txt"},{"score":0.810831,"file":"pgjr10.txt"}]},{"file":"10030-8.txt","similarTo":[{"score":0.999979,"file":"10030.txt"},{"score":0.953704,"file":"crsnk10.txt"},{"score":0.946253,"file":"canbe10.txt"},{"score":0.943432,"file":"10005.txt"},{"score":0.943426,"file":"10005-8.txt"}]},{"file":"10030.txt","similarTo":[{"score":0.999993,"file":"10030-8.txt"},{"score":0.953717,"file":"crsnk10.txt"},{"score":0.946266,"file":"canbe10.txt"},{"score":0.943444,"file":"10005.txt"},{"score":0.943438,"file":"10005-8.txt"}]},{"file":"10031-8.txt","similarTo":[{"score":0.999951,"file":"10031.txt"},{"score":0.975904,"file":"12372-8.txt"},{"score":0.975903,"file":"12372.txt"},{"score":0.973212,"file":"12374-8.txt"},{"score":0.973211,"file":"12374.txt"}]},{"file":"10031.txt","similarTo":[{"score":0.999967,"file":"10031-8.txt"},{"score":0.975927,"file":"12372-8.txt"},{"score":0.975922,"file":"12372.txt"},{"score":0.97323,"file":"12374-8.txt"},{"score":0.973229,"file":"12374.txt"}]},{"file":"10032-8.txt","similarTo":[{"score":0.999988,"file":"10032.txt"},{"score":0.987165,"file":"10017-8.txt"},{"score":0.987164,"file":"10017.txt"},{"score":0.98602,"file":"10016-8.txt"},{"score":0.986016,"file":"10016.txt"}]},{"file":"10032.txt","similarTo":[{"score":0.999991,"file":"10032-8.txt"},{"score":0.987169,"file":"10017.txt"},{"score":0.987165,"file":"10017-8.txt"},{"score":0.986029,"file":"10016.txt"},{"score":0.986028,"file":"10016-8.txt"}]},{"file":"10033-8.txt","similarTo":[{"score":0.999984,"file":"10033.txt"},{"score":0.978116,"file":"10032.txt"},{"score":0.978112,"file":"10032-8.txt"},{"score":0.977863,"file":"10017.txt"},{"score":0.977856,"file":"10017-8.txt"}]},{"file":"10033.txt","similarTo":[{"score":0.999986,"file":"10033-8.txt"},{"score":0.97811,"file":"10032.txt"},{"score":0.978102,"file":"10032-8.txt"},{"score":0.977854,"file":"10017.txt"},{"score":0.977843,"file":"10017-8.txt"}]},{"file":"10034-8.txt","similarTo":[{"score":0.999031,"file":"10034.txt"},{"score":0.983508,"file":"10016.txt"},{"score":0.983505,"file":"10016-8.txt"},{"score":0.983143,"file":"10032.txt"},{"score":0.983142,"file":"10032-8.txt"}]},{"file":"10034.txt","similarTo":[{"score":0.999753,"file":"10034-8.txt"},{"score":0.98421,"file":"10016.txt"},{"score":0.984202,"file":"10016-8.txt"},{"score":0.983859,"file":"10032.txt"},{"score":0.983853,"file":"10032-8.txt"}]},{"file":"12370-8.txt","similarTo":[{"score":0.999999,"file":"12370.txt"},{"score":0.964058,"file":"baleng2.txt"},{"score":0.962527,"file":"tecom10.txt"},{"score":0.961531,"file":"mklmt10.txt"},{"score":0.960356,"file":"12373-8.txt"}]},{"file":"12370.txt","similarTo":[{"score":0.999999,"file":"12370-8.txt"},{"score":0.964072,"file":"baleng2.txt"},{"score":0.96253,"file":"tecom10.txt"},{"score":0.961535,"file":"mklmt10.txt"},{"score":0.960369,"file":"12373-8.txt"}]},{"file":"12372-8.txt","similarTo":[{"score":0.999897,"file":"12372.txt"},{"score":0.988888,"file":"12374-8.txt"},{"score":0.988885,"file":"12374.txt"},{"score":0.986972,"file":"12373-8.txt"},{"score":0.986964,"file":"12373.txt"}]},{"file":"12372.txt","similarTo":[{"score":0.999912,"file":"12372-8.txt"},{"score":0.988899,"file":"12374.txt"},{"score":0.988898,"file":"12374-8.txt"},{"score":0.98705,"file":"12373-8.txt"},{"score":0.987044,"file":"12373.txt"}]},{"file":"12373-8.txt","similarTo":[{"score":0.999993,"file":"12373.txt"},{"score":0.988256,"file":"12372.txt"},{"score":0.988184,"file":"12372-8.txt"},{"score":0.986831,"file":"12374.txt"},{"score":0.986825,"file":"12374-8.txt"}]},{"file":"12373.txt","similarTo":[{"score":0.999995,"file":"12373-8.txt"},{"score":0.988252,"file":"12372.txt"},{"score":0.988187,"file":"12372-8.txt"},{"score":0.986826,"file":"12374.txt"},{"score":0.986819,"file":"12374-8.txt"}]},{"file":"12374-8.txt","similarTo":[{"score":0.999986,"file":"12374.txt"},{"score":0.989951,"file":"12372.txt"},{"score":0.989948,"file":"12372-8.txt"},{"score":0.985763,"file":"12373-8.txt"},{"score":0.985756,"file":"12373.txt"}]},{"file":"12374.txt","similarTo":[{"score":0.999988,"file":"12374-8.txt"},{"score":0.989955,"file":"12372-8.txt"},{"score":0.989953,"file":"12372.txt"},{"score":0.98577,"file":"12373-8.txt"},{"score":0.985764,"file":"12373.txt"}]},{"file":"12375-8.txt","similarTo":[{"score":0.999994,"file":"12375.txt"},{"score":0.925082,"file":"prhg10.txt"},{"score":0.924516,"file":"10026.txt"},{"score":0.924502,"file":"10026-8.txt"},{"score":0.923627,"file":"12376-8.txt"}]},{"file":"12375.txt","similarTo":[{"score":0.999996,"file":"12375-8.txt"},{"score":0.925083,"file":"prhg10.txt"},{"score":0.924512,"file":"10026.txt"},{"score":0.924499,"file":"10026-8.txt"},{"score":0.923628,"file":"12376-8.txt"}]},{"file":"12376-8.txt","similarTo":[{"score":1,"file":"12376.txt"},{"score":0.94166,"file":"prhg10.txt"},{"score":0.933679,"file":"12372.txt"},{"score":0.933662,"file":"12372-8.txt"},{"score":0.932503,"file":"10024.txt"}]},{"file":"12376.txt","similarTo":[{"score":1,"file":"12376-8.txt"},{"score":0.94166,"file":"prhg10.txt"},{"score":0.933679,"file":"12372.txt"},{"score":0.933662,"file":"12372-8.txt"},{"score":0.932503,"file":"10024.txt"}]},{"file":"12377.txt","similarTo":[{"score":0.909747,"file":"10024-8.txt"},{"score":0.909747,"file":"10024.txt"},{"score":0.907855,"file":"prhg10.txt"},{"score":0.907436,"file":"prcpg10.txt"},{"score":0.905537,"file":"12374.txt"}]},{"file":"12378-8.txt","similarTo":[{"score":0.999796,"file":"12378.txt"},{"score":0.963178,"file":"10034.txt"},{"score":0.963172,"file":"10034-8.txt"},{"score":0.962865,"file":"10015.txt"},{"score":0.959818,"file":"10016.txt"}]},{"file":"12378.txt","similarTo":[{"score":0.999858,"file":"12378-8.txt"},{"score":0.963205,"file":"10034.txt"},{"score":0.963182,"file":"10034-8.txt"},{"score":0.962909,"file":"10015.txt"},{"score":0.959825,"file":"10016.txt"}]},{"file":"12380-8.txt","similarTo":[{"score":1,"file":"12380.txt"},{"score":0.972599,"file":"alpsn10.txt"},{"score":0.967939,"file":"12373-8.txt"},{"score":0.967937,"file":"12373.txt"},{"score":0.966605,"file":"12374.txt"}]},{"file":"12380.txt","similarTo":[{"score":1,"file":"12380-8.txt"},{"score":0.9726,"file":"alpsn10.txt"},{"score":0.967939,"file":"12373-8.txt"},{"score":0.967937,"file":"12373.txt"},{"score":0.966606,"file":"12374.txt"}]},{"file":"12381.txt","similarTo":[{"score":0.907396,"file":"zncli10.txt"},{"score":0.906522,"file":"12374-8.txt"},{"score":0.906512,"file":"12374.txt"},{"score":0.906431,"file":"allyr10.txt"},{"score":0.904013,"file":"12373-8.txt"}]},{"file":"12383-8.txt","similarTo":[{"score":0.999956,"file":"12383.txt"},{"score":0.966176,"file":"10031.txt"},{"score":0.966174,"file":"10031-8.txt"},{"score":0.965301,"file":"12373-8.txt"},{"score":0.965296,"file":"12373.txt"}]},{"file":"12383.txt","similarTo":[{"score":0.999982,"file":"12383-8.txt"},{"score":0.96617,"file":"10031.txt"},{"score":0.966164,"file":"10031-8.txt"},{"score":0.96535,"file":"12373-8.txt"},{"score":0.965348,"file":"12373.txt"}]},{"file":"12384-8.txt","similarTo":[{"score":0.999998,"file":"12384.txt"},{"score":0.946961,"file":"12380-8.txt"},{"score":0.94696,"file":"12380.txt"},{"score":0.943311,"file":"10009.txt"},{"score":0.942359,"file":"grybr10.txt"}]},{"file":"12384.txt","similarTo":[{"score":0.999997,"file":"12384-8.txt"},{"score":0.946953,"file":"12380-8.txt"},{"score":0.946952,"file":"12380.txt"},{"score":0.943303,"file":"10009.txt"},{"score":0.942348,"file":"grybr10.txt"}]},{"file":"12385-8.txt","similarTo":[{"score":0.999981,"file":"12385.txt"},{"score":0.803458,"file":"10020.txt"},{"score":0.803458,"file":"10020-8.txt"},{"score":0.793646,"file":"12374.txt"},{"score":0.793642,"file":"12374-8.txt"}]},{"file":"12385.txt","similarTo":[{"score":0.999988,"file":"12385-8.txt"},{"score":0.803467,"file":"10020.txt"},{"score":0.803466,"file":"10020-8.txt"},{"score":0.793652,"file":"12374.txt"},{"score":0.793647,"file":"12374-8.txt"}]},{"file":"12386.txt","similarTo":[{"score":0.716555,"file":"50bab10.txt"},{"score":0.713693,"file":"batlf10.txt"},{"score":0.712198,"file":"2babb10.txt"},{"score":0.710364,"file":"3babb10.txt"},{"score":0.705407,"file":"wtrbs10.txt"}]},{"file":"1jcfs10.txt","similarTo":[{"score":0.941179,"file":"12375.txt"},{"score":0.941178,"file":"12375-8.txt"},{"score":0.937929,"file":"10026.txt"},{"score":0.937913,"file":"10026-8.txt"},{"score":0.931929,"file":"12374-8.txt"}]},{"file":"2almy10.txt","similarTo":[{"score":0.955923,"file":"10031.txt"},{"score":0.955916,"file":"10031-8.txt"},{"score":0.951078,"file":"mspcd10.txt"},{"score":0.949274,"file":"12372.txt"},{"score":0.949231,"file":"12372-8.txt"}]},{"file":"2babb10.txt","similarTo":[{"score":0.984995,"file":"50bab10.txt"},{"score":0.966462,"file":"3babb10.txt"},{"score":0.940356,"file":"svyrd10.txt"},{"score":0.923932,"file":"baleng2.txt"},{"score":0.921265,"file":"batlf10.txt"}]},{"file":"3babb10.txt","similarTo":[{"score":0.988429,"file":"50bab10.txt"},{"score":0.964263,"file":"2babb10.txt"},{"score":0.9392,"file":"svyrd10.txt"},{"score":0.923115,"file":"baleng2.txt"},{"score":0.921785,"file":"batlf10.txt"}]},{"file":"50bab10.txt","similarTo":[{"score":0.988143,"file":"3babb10.txt"},{"score":0.98179,"file":"2babb10.txt"},{"score":0.947766,"file":"svyrd10.txt"},{"score":0.932352,"file":"baleng2.txt"},{"score":0.925918,"file":"12386.txt"}]},{"file":"G-1_Corinthians.txt","similarTo":[{"score":0.948036,"file":"G-Romans.txt"},{"score":0.938536,"file":"G-2_Corinthians.txt"},{"score":0.925508,"file":"G-Galatians.txt"},{"score":0.913945,"file":"G-1_Peter.txt"},{"score":0.905886,"file":"G-Hebrews.txt"}]},{"file":"G-1_John.txt","similarTo":[{"score":0.855427,"file":"G-Romans.txt"},{"score":0.840374,"file":"G-Hebrews.txt"},{"score":0.837279,"file":"G-James.txt"},{"score":0.832943,"file":"G-1_Corinthians.txt"},{"score":0.821563,"file":"G-2_Corinthians.txt"}]},{"file":"G-1_Peter.txt","similarTo":[{"score":0.929629,"file":"G-Romans.txt"},{"score":0.925481,"file":"G-Colossians.txt"},{"score":0.913718,"file":"G-1_Corinthians.txt"},{"score":0.912609,"file":"G-Ephesians.txt"},{"score":0.903758,"file":"G-Hebrews.txt"}]},{"file":"G-1_Thessalonians.txt","similarTo":[{"score":0.932796,"file":"G-2_Thessalonians.txt"},{"score":0.896158,"file":"G-2_Corinthians.txt"},{"score":0.883858,"file":"G-1_Peter.txt"},{"score":0.880632,"file":"G-Colossians.txt"},{"score":0.857847,"file":"G-2_Timothy.txt"}]},{"file":"G-1_Timothy.txt","similarTo":[{"score":0.916907,"file":"G-2_Timothy.txt"},{"score":0.903942,"file":"G-Hebrews.txt"},{"score":0.901587,"file":"G-2_Peter.txt"},{"score":0.899279,"file":"G-Romans.txt"},{"score":0.890664,"file":"G-Ephesians.txt"}]},{"file":"G-2_Corinthians.txt","similarTo":[{"score":0.93924,"file":"G-1_Corinthians.txt"},{"score":0.92408,"file":"G-Romans.txt"},{"score":0.914369,"file":"G-Galatians.txt"},{"score":0.909743,"file":"G-Philippians.txt"},{"score":0.896153,"file":"G-1_Peter.txt"}]},{"file":"G-2_John.txt","similarTo":[{"score":0.879661,"file":"G-3_John.txt"},{"score":0.854198,"file":"G-John.txt"},{"score":0.853983,"file":"G-2_Timothy.txt"},{"score":0.851578,"file":"G-Galatians.txt"},{"score":0.850791,"file":"G-1_Corinthians.txt"}]},{"file":"G-2_Peter.txt","similarTo":[{"score":0.909164,"file":"G-1_Timothy.txt"},{"score":0.907674,"file":"G-2_Timothy.txt"},{"score":0.903958,"file":"G-Hebrews.txt"},{"score":0.893929,"file":"G-Acts.txt"},{"score":0.893108,"file":"G-Matthew.txt"}]},{"file":"G-2_Thessalonians.txt","similarTo":[{"score":0.934587,"file":"G-1_Thessalonians.txt"},{"score":0.896311,"file":"G-Colossians.txt"},{"score":0.893095,"file":"G-1_Peter.txt"},{"score":0.892354,"file":"G-2_Timothy.txt"},{"score":0.89043,"file":"G-Ephesians.txt"}]},{"file":"G-2_Timothy.txt","similarTo":[{"score":0.909423,"file":"G-1_Timothy.txt"},{"score":0.905427,"file":"G-Philippians.txt"},{"score":0.902688,"file":"G-Romans.txt"},{"score":0.901272,"file":"G-2_Peter.txt"},{"score":0.893044,"file":"G-Ephesians.txt"}]},{"file":"G-3_John.txt","similarTo":[{"score":0.843811,"file":"G-Galatians.txt"},{"score":0.840353,"file":"G-2_John.txt"},{"score":0.837687,"file":"G-2_Timothy.txt"},{"score":0.835317,"file":"G-Romans.txt"},{"score":0.83279,"file":"G-John.txt"}]},{"file":"G-Acts.txt","similarTo":[{"score":0.958098,"file":"G-Luke.txt"},{"score":0.950102,"file":"G-Mark.txt"},{"score":0.948853,"file":"G-Matthew.txt"},{"score":0.915838,"file":"wtrbs10.txt"},{"score":0.915298,"file":"grybr10.txt"}]},{"file":"G-Colossians.txt","similarTo":[{"score":0.937861,"file":"G-Ephesians.txt"},{"score":0.920365,"file":"G-1_Peter.txt"},{"score":0.913817,"file":"G-Philippians.txt"},{"score":0.899531,"file":"G-Romans.txt"},{"score":0.895835,"file":"G-1_Corinthians.txt"}]},{"file":"G-Ephesians.txt","similarTo":[{"score":0.947468,"file":"G-Colossians.txt"},{"score":0.922738,"file":"G-Romans.txt"},{"score":0.922015,"file":"G-1_Peter.txt"},{"score":0.914688,"file":"G-1_Timothy.txt"},{"score":0.914065,"file":"G-2_Timothy.txt"}]},{"file":"G-Galatians.txt","similarTo":[{"score":0.939136,"file":"G-Romans.txt"},{"score":0.924934,"file":"G-1_Corinthians.txt"},{"score":0.899968,"file":"G-2_Corinthians.txt"},{"score":0.889764,"file":"G-1_Peter.txt"},{"score":0.878788,"file":"G-Hebrews.txt"}]},{"file":"G-Hebrews.txt","similarTo":[{"score":0.933219,"file":"G-Romans.txt"},{"score":0.910107,"file":"12374-8.txt"},{"score":0.910098,"file":"12374.txt"},{"score":0.908842,"file":"G-2_Peter.txt"},{"score":0.908753,"file":"pgjr10.txt"}]},{"file":"G-James.txt","similarTo":[{"score":0.901332,"file":"G-Matthew.txt"},{"score":0.899614,"file":"G-Hebrews.txt"},{"score":0.899122,"file":"G-1_Corinthians.txt"},{"score":0.893623,"file":"G-1_Peter.txt"},{"score":0.88977,"file":"G-Romans.txt"}]},{"file":"G-John.txt","similarTo":[{"score":0.938143,"file":"G-Matthew.txt"},{"score":0.928416,"file":"G-Luke.txt"},{"score":0.907024,"file":"G-Mark.txt"},{"score":0.890656,"file":"G-Acts.txt"},{"score":0.862579,"file":"G-1_Corinthians.txt"}]},{"file":"G-Jude.txt","similarTo":[{"score":0.848367,"file":"G-2_Peter.txt"},{"score":0.804758,"file":"G-1_Timothy.txt"},{"score":0.802761,"file":"G-Ephesians.txt"},{"score":0.796526,"file":"G-2_Timothy.txt"},{"score":0.791749,"file":"G-Romans.txt"}]},{"file":"G-Luke.txt","similarTo":[{"score":0.985445,"file":"G-Matthew.txt"},{"score":0.980261,"file":"G-Mark.txt"},{"score":0.965677,"file":"G-Acts.txt"},{"score":0.927113,"file":"G-John.txt"},{"score":0.924593,"file":"wtrbs10.txt"}]},{"file":"G-Mark.txt","similarTo":[{"score":0.980837,"file":"G-Luke.txt"},{"score":0.97282,"file":"G-Matthew.txt"},{"score":0.958116,"file":"G-Acts.txt"},{"score":0.924801,"file":"wtrbs10.txt"},{"score":0.906038,"file":"G-John.txt"}]},{"file":"G-Matthew.txt","similarTo":[{"score":0.985501,"file":"G-Luke.txt"},{"score":0.972263,"file":"G-Mark.txt"},{"score":0.955874,"file":"G-Acts.txt"},{"score":0.936648,"file":"G-John.txt"},{"score":0.91053,"file":"wtrbs10.txt"}]},{"file":"G-Philemon.txt","similarTo":[{"score":0.826604,"file":"G-Philippians.txt"},{"score":0.804709,"file":"G-2_Corinthians.txt"},{"score":0.792748,"file":"G-2_Timothy.txt"},{"score":0.785803,"file":"G-Galatians.txt"},{"score":0.782622,"file":"G-Colossians.txt"}]},{"file":"G-Philippians.txt","similarTo":[{"score":0.923154,"file":"G-2_Timothy.txt"},{"score":0.919351,"file":"G-Colossians.txt"},{"score":0.913611,"file":"G-2_Corinthians.txt"},{"score":0.909302,"file":"G-Ephesians.txt"},{"score":0.897403,"file":"G-1_Corinthians.txt"}]},{"file":"G-Revelation.txt","similarTo":[{"score":0.937116,"file":"grybr10.txt"},{"score":0.932147,"file":"mklmt10.txt"},{"score":0.926022,"file":"12370-8.txt"},{"score":0.92601,"file":"12370.txt"},{"score":0.922223,"file":"G-Acts.txt"}]},{"file":"G-Romans.txt","similarTo":[{"score":0.947596,"file":"G-1_Corinthians.txt"},{"score":0.942338,"file":"G-Galatians.txt"},{"score":0.932188,"file":"G-Hebrews.txt"},{"score":0.927137,"file":"G-1_Peter.txt"},{"score":0.921305,"file":"G-2_Corinthians.txt"}]},{"file":"G-Titus.txt","similarTo":[{"score":0.87491,"file":"G-1_Timothy.txt"},{"score":0.851401,"file":"G-2_Timothy.txt"},{"score":0.849337,"file":"G-2_Peter.txt"},{"score":0.819726,"file":"G-Romans.txt"},{"score":0.814792,"file":"G-1_Peter.txt"}]},{"file":"ajtl10.txt","similarTo":[{"score":0.923355,"file":"cfrz10.txt"},{"score":0.916234,"file":"10027.txt"},{"score":0.915516,"file":"pgjr10.txt"},{"score":0.913615,"file":"mklmt10.txt"},{"score":0.911788,"file":"batlf10.txt"}]},{"file":"allyr10.txt","similarTo":[{"score":0.970448,"file":"mspcd10.txt"},{"score":0.969537,"file":"12374.txt"},{"score":0.969534,"file":"12374-8.txt"},{"score":0.968725,"file":"12373-8.txt"},{"score":0.968721,"file":"12373.txt"}]},{"file":"alpsn10.txt","similarTo":[{"score":0.971877,"file":"12380.txt"},{"score":0.971876,"file":"12380-8.txt"},{"score":0.970472,"file":"12373.txt"},{"score":0.970469,"file":"12373-8.txt"},{"score":0.967744,"file":"cambp10.txt"}]},{"file":"balen10.txt","similarTo":[{"score":0.840556,"file":"wtrbs10.txt"},{"score":0.827101,"file":"mklmt10.txt"},{"score":0.826923,"file":"batlf10.txt"},{"score":0.82453,"file":"prcpg10.txt"},{"score":0.820356,"file":"50bab10.txt"}]},{"file":"baleng2.txt","similarTo":[{"score":0.955427,"file":"12370.txt"},{"score":0.955413,"file":"12370-8.txt"},{"score":0.95449,"file":"12373.txt"},{"score":0.954489,"file":"12373-8.txt"},{"score":0.953225,"file":"10020.txt"}]},{"file":"batlf10.txt","similarTo":[{"score":0.866118,"file":"cfrz10.txt"},{"score":0.855066,"file":"10007.txt"},{"score":0.855062,"file":"10007-8.txt"},{"score":0.855013,"file":"50bab10.txt"},{"score":0.854172,"file":"mklmt10.txt"}]},{"file":"bgopr10.txt","similarTo":[{"score":0.7032,"file":"rlsl210.txt"},{"score":0.702929,"file":"rlsl110.txt"},{"score":0.697797,"file":"prhsb10.txt"},{"score":0.694102,"file":"svyrd10.txt"},{"score":0.69299,"file":"pntvw10.txt"}]},{"file":"brnte10.txt","similarTo":[{"score":0.927266,"file":"10013.txt"},{"score":0.927245,"file":"10013-8.txt"},{"score":0.925062,"file":"10018.txt"},{"score":0.925042,"file":"10018-8.txt"},{"score":0.923533,"file":"cantp10.txt"}]},{"file":"bstjg10.txt","similarTo":[{"score":0.924896,"file":"cfrz10.txt"},{"score":0.920573,"file":"10029.txt"},{"score":0.920572,"file":"10029-8.txt"},{"score":0.909497,"file":"10021-8.txt"},{"score":0.909471,"file":"10021.txt"}]},{"file":"cambp10.txt","similarTo":[{"score":0.965606,"file":"alpsn10.txt"},{"score":0.96502,"file":"12373.txt"},{"score":0.965019,"file":"12373-8.txt"},{"score":0.962457,"file":"cantp10.txt"},{"score":0.962261,"file":"12380.txt"}]},{"file":"canbe10.txt","similarTo":[{"score":0.977454,"file":"prhg10.txt"},{"score":0.97306,"file":"12372.txt"},{"score":0.972961,"file":"12372-8.txt"},{"score":0.971591,"file":"12373.txt"},{"score":0.971588,"file":"12373-8.txt"}]},{"file":"cantp10.txt","similarTo":[{"score":0.949462,"file":"allyr10.txt"},{"score":0.949026,"file":"mspcd10.txt"},{"score":0.948066,"file":"10018.txt"},{"score":0.948039,"file":"10018-8.txt"},{"score":0.945886,"file":"12373-8.txt"}]},{"file":"cfrz10.txt","similarTo":[{"score":0.905866,"file":"pgjr10.txt"},{"score":0.897259,"file":"batlf10.txt"},{"score":0.89421,"file":"10029.txt"},{"score":0.894208,"file":"10029-8.txt"},{"score":0.891522,"file":"ajtl10.txt"}]},{"file":"crsnk10.txt","similarTo":[{"score":0.954604,"file":"10009.txt"},{"score":0.953164,"file":"12373-8.txt"},{"score":0.953162,"file":"12373.txt"},{"score":0.948964,"file":"12372.txt"},{"score":0.948913,"file":"12372-8.txt"}]},{"file":"esbio10.txt","similarTo":[{"score":0.924142,"file":"allyr10.txt"},{"score":0.922778,"file":"mspcd10.txt"},{"score":0.922564,"file":"12374-8.txt"},{"score":0.922561,"file":"12374.txt"},{"score":0.919263,"file":"12372-8.txt"}]},{"file":"grybr10.txt","similarTo":[{"score":0.952858,"file":"10009.txt"},{"score":0.952285,"file":"crsnk10.txt"},{"score":0.949053,"file":"12373-8.txt"},{"score":0.949051,"file":"12373.txt"},{"score":0.948153,"file":"12374.txt"}]},{"file":"mklmt10.txt","similarTo":[{"score":0.956378,"file":"crsnk10.txt"},{"score":0.955476,"file":"12373-8.txt"},{"score":0.95547,"file":"12373.txt"},{"score":0.954356,"file":"12374.txt"},{"score":0.954355,"file":"12374-8.txt"}]},{"file":"morem10.txt","similarTo":[{"score":0.93241,"file":"12384-8.txt"},{"score":0.93239,"file":"12384.txt"},{"score":0.93083,"file":"grybr10.txt"},{"score":0.930073,"file":"10016.txt"},{"score":0.930069,"file":"10016-8.txt"}]},{"file":"mspcd10.txt","similarTo":[{"score":0.981802,"file":"allyr10.txt"},{"score":0.979969,"file":"12373-8.txt"},{"score":0.979965,"file":"12373.txt"},{"score":0.979614,"file":"12372.txt"},{"score":0.9796,"file":"12372-8.txt"}]},{"file":"penbr10.txt","similarTo":[{"score":0.853978,"file":"10021.txt"},{"score":0.85394,"file":"10021-8.txt"},{"score":0.852582,"file":"pntvw10.txt"},{"score":0.845551,"file":"prhsb10.txt"},{"score":0.841769,"file":"10025.txt"}]},{"file":"pgjr10.txt","similarTo":[{"score":0.956893,"file":"10020.txt"},{"score":0.956891,"file":"10020-8.txt"},{"score":0.956725,"file":"12373-8.txt"},{"score":0.956722,"file":"12373.txt"},{"score":0.956463,"file":"12372.txt"}]},{"file":"pntvw10.txt","similarTo":[{"score":0.957212,"file":"prhsb10.txt"},{"score":0.952155,"file":"rlsl210.txt"},{"score":0.947561,"file":"rlsl110.txt"},{"score":0.939495,"file":"pgjr10.txt"},{"score":0.939033,"file":"12378-8.txt"}]},{"file":"prcpg10.txt","similarTo":[{"score":0.941419,"file":"12374-8.txt"},{"score":0.941419,"file":"12374.txt"},{"score":0.939697,"file":"mklmt10.txt"},{"score":0.938431,"file":"12372-8.txt"},{"score":0.938422,"file":"12372.txt"}]},{"file":"prhg10.txt","similarTo":[{"score":0.97667,"file":"canbe10.txt"},{"score":0.9699,"file":"12372.txt"},{"score":0.969824,"file":"12372-8.txt"},{"score":0.968862,"file":"12374.txt"},{"score":0.968854,"file":"12374-8.txt"}]},{"file":"prhsb10.txt","similarTo":[{"score":0.942137,"file":"10029.txt"},{"score":0.942126,"file":"10029-8.txt"},{"score":0.939189,"file":"pgjr10.txt"},{"score":0.935304,"file":"10008.txt"},{"score":0.935303,"file":"10008-8.txt"}]},{"file":"rlsl110.txt","similarTo":[{"score":0.990732,"file":"rlsl210.txt"},{"score":0.942106,"file":"pntvw10.txt"},{"score":0.938496,"file":"10007.txt"},{"score":0.938492,"file":"10007-8.txt"},{"score":0.938472,"file":"prhsb10.txt"}]},{"file":"rlsl210.txt","similarTo":[{"score":0.988333,"file":"rlsl110.txt"},{"score":0.946818,"file":"pntvw10.txt"},{"score":0.942843,"file":"10007.txt"},{"score":0.942838,"file":"10007-8.txt"},{"score":0.942768,"file":"prhsb10.txt"}]},{"file":"rmlav10.txt","similarTo":[{"score":0.827684,"file":"zncli10.txt"},{"score":0.786291,"file":"12373.txt"},{"score":0.786272,"file":"12373-8.txt"},{"score":0.783035,"file":"baleng2.txt"},{"score":0.782875,"file":"10023.txt"}]},{"file":"sesli10.txt","similarTo":[{"score":0.965306,"file":"mspcd10.txt"},{"score":0.962874,"file":"cantp10.txt"},{"score":0.96189,"file":"wldsp10.txt"},{"score":0.961209,"file":"12373-8.txt"},{"score":0.9612,"file":"12373.txt"}]},{"file":"svyrd10.txt","similarTo":[{"score":0.949686,"file":"50bab10.txt"},{"score":0.945595,"file":"3babb10.txt"},{"score":0.945006,"file":"2babb10.txt"},{"score":0.931318,"file":"baleng2.txt"},{"score":0.919793,"file":"prhsb10.txt"}]},{"file":"tecom10.txt","similarTo":[{"score":0.963091,"file":"12370.txt"},{"score":0.963089,"file":"12370-8.txt"},{"score":0.958842,"file":"12373-8.txt"},{"score":0.958836,"file":"12373.txt"},{"score":0.958532,"file":"pgjr10.txt"}]},{"file":"utrkj10.txt","similarTo":[{"score":0.959845,"file":"12373.txt"},{"score":0.95984,"file":"12373-8.txt"},{"score":0.953633,"file":"10009.txt"},{"score":0.950483,"file":"crsnk10.txt"},{"score":0.950067,"file":"12383.txt"}]},{"file":"vpasm10.txt","similarTo":[{"score":0.90681,"file":"cambp10.txt"},{"score":0.905447,"file":"cantp10.txt"},{"score":0.900227,"file":"10016-8.txt"},{"score":0.900209,"file":"10016.txt"},{"score":0.899842,"file":"2almy10.txt"}]},{"file":"wldsp10.txt","similarTo":[{"score":0.961717,"file":"mspcd10.txt"},{"score":0.958933,"file":"10004-8.txt"},{"score":0.958917,"file":"10004.txt"},{"score":0.958521,"file":"2almy10.txt"},{"score":0.95624,"file":"cantp10.txt"}]},{"file":"wtrbs10.txt","similarTo":[{"score":0.920876,"file":"ajtl10.txt"},{"score":0.920123,"file":"mklmt10.txt"},{"score":0.918639,"file":"G-Mark.txt"},{"score":0.91678,"file":"cfrz10.txt"},{"score":0.915856,"file":"12386.txt"}]},{"file":"zncli10.txt","similarTo":[{"score":0.931111,"file":"12372-8.txt"},{"score":0.931094,"file":"12372.txt"},{"score":0.930169,"file":"10005-8.txt"},{"score":0.930168,"file":"10005.txt"},{"score":0.929612,"file":"12374-8.txt"}]}]
+[
+    {
+        "file": "10001.txt",
+        "similarTo": [
+            {
+                "file": "10015.txt",
+                "score": 0.931418
+            },
+            {
+                "file": "10013-8.txt",
+                "score": 0.930062
+            },
+            {
+                "file": "10013.txt",
+                "score": 0.930051
+            },
+            {
+                "file": "10018-8.txt",
+                "score": 0.928387
+            },
+            {
+                "file": "10018.txt",
+                "score": 0.928373
+            }
+        ]
+    },
+    {
+        "file": "10002-8.txt",
+        "similarTo": [
+            {
+                "file": "10002.txt",
+                "score": 0.999999
+            },
+            {
+                "file": "canbe10.txt",
+                "score": 0.951001
+            },
+            {
+                "file": "10007.txt",
+                "score": 0.941587
+            },
+            {
+                "file": "10007-8.txt",
+                "score": 0.941585
+            },
+            {
+                "file": "10030-8.txt",
+                "score": 0.941472
+            }
+        ]
+    },
+    {
+        "file": "10002.txt",
+        "similarTo": [
+            {
+                "file": "10002-8.txt",
+                "score": 0.999999
+            },
+            {
+                "file": "canbe10.txt",
+                "score": 0.951004
+            },
+            {
+                "file": "10007.txt",
+                "score": 0.941587
+            },
+            {
+                "file": "10007-8.txt",
+                "score": 0.941584
+            },
+            {
+                "file": "10030-8.txt",
+                "score": 0.941473
+            }
+        ]
+    },
+    {
+        "file": "10003.txt",
+        "similarTo": [
+            {
+                "file": "10024.txt",
+                "score": 0.942887
+            },
+            {
+                "file": "10024-8.txt",
+                "score": 0.942886
+            },
+            {
+                "file": "crsnk10.txt",
+                "score": 0.942667
+            },
+            {
+                "file": "prhg10.txt",
+                "score": 0.942496
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.942406
+            }
+        ]
+    },
+    {
+        "file": "10004-8.txt",
+        "similarTo": [
+            {
+                "file": "10004.txt",
+                "score": 0.999979
+            },
+            {
+                "file": "wldsp10.txt",
+                "score": 0.964533
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.959292
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.959288
+            },
+            {
+                "file": "allyr10.txt",
+                "score": 0.958573
+            }
+        ]
+    },
+    {
+        "file": "10004.txt",
+        "similarTo": [
+            {
+                "file": "10004-8.txt",
+                "score": 0.999985
+            },
+            {
+                "file": "wldsp10.txt",
+                "score": 0.96452
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.9593
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.959299
+            },
+            {
+                "file": "allyr10.txt",
+                "score": 0.958569
+            }
+        ]
+    },
+    {
+        "file": "10005-8.txt",
+        "similarTo": [
+            {
+                "file": "10005.txt",
+                "score": 0.999997
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.981607
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.981594
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.980092
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.980086
+            }
+        ]
+    },
+    {
+        "file": "10005.txt",
+        "similarTo": [
+            {
+                "file": "10005-8.txt",
+                "score": 0.999998
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.981607
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.981601
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.980099
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.980093
+            }
+        ]
+    },
+    {
+        "file": "10006-8.txt",
+        "similarTo": [
+            {
+                "file": "10006.txt",
+                "score": 0.999962
+            },
+            {
+                "file": "12370-8.txt",
+                "score": 0.946619
+            },
+            {
+                "file": "12370.txt",
+                "score": 0.94661
+            },
+            {
+                "file": "tecom10.txt",
+                "score": 0.945813
+            },
+            {
+                "file": "10005-8.txt",
+                "score": 0.944801
+            }
+        ]
+    },
+    {
+        "file": "10006.txt",
+        "similarTo": [
+            {
+                "file": "10006-8.txt",
+                "score": 0.999972
+            },
+            {
+                "file": "12370-8.txt",
+                "score": 0.946645
+            },
+            {
+                "file": "12370.txt",
+                "score": 0.946637
+            },
+            {
+                "file": "tecom10.txt",
+                "score": 0.945843
+            },
+            {
+                "file": "10005-8.txt",
+                "score": 0.944825
+            }
+        ]
+    },
+    {
+        "file": "10007-8.txt",
+        "similarTo": [
+            {
+                "file": "10007.txt",
+                "score": 0.999997
+            },
+            {
+                "file": "10020-8.txt",
+                "score": 0.954074
+            },
+            {
+                "file": "10020.txt",
+                "score": 0.954072
+            },
+            {
+                "file": "batlf10.txt",
+                "score": 0.94274
+            },
+            {
+                "file": "rlsl210.txt",
+                "score": 0.940611
+            }
+        ]
+    },
+    {
+        "file": "10007.txt",
+        "similarTo": [
+            {
+                "file": "10007-8.txt",
+                "score": 0.999998
+            },
+            {
+                "file": "10020-8.txt",
+                "score": 0.954074
+            },
+            {
+                "file": "10020.txt",
+                "score": 0.954073
+            },
+            {
+                "file": "batlf10.txt",
+                "score": 0.942747
+            },
+            {
+                "file": "rlsl210.txt",
+                "score": 0.940618
+            }
+        ]
+    },
+    {
+        "file": "10008-8.txt",
+        "similarTo": [
+            {
+                "file": "10008.txt",
+                "score": 0.999985
+            },
+            {
+                "file": "10027.txt",
+                "score": 0.944147
+            },
+            {
+                "file": "canbe10.txt",
+                "score": 0.942323
+            },
+            {
+                "file": "crsnk10.txt",
+                "score": 0.935969
+            },
+            {
+                "file": "10023.txt",
+                "score": 0.935378
+            }
+        ]
+    },
+    {
+        "file": "10008.txt",
+        "similarTo": [
+            {
+                "file": "10008-8.txt",
+                "score": 0.999995
+            },
+            {
+                "file": "10027.txt",
+                "score": 0.944152
+            },
+            {
+                "file": "canbe10.txt",
+                "score": 0.94233
+            },
+            {
+                "file": "crsnk10.txt",
+                "score": 0.935974
+            },
+            {
+                "file": "10023.txt",
+                "score": 0.935382
+            }
+        ]
+    },
+    {
+        "file": "10009.txt",
+        "similarTo": [
+            {
+                "file": "12373.txt",
+                "score": 0.97702
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.977019
+            },
+            {
+                "file": "crsnk10.txt",
+                "score": 0.97664
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.971796
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.971788
+            }
+        ]
+    },
+    {
+        "file": "10010.txt",
+        "similarTo": [
+            {
+                "file": "10026.txt",
+                "score": 0.952242
+            },
+            {
+                "file": "10026-8.txt",
+                "score": 0.952234
+            },
+            {
+                "file": "allyr10.txt",
+                "score": 0.949851
+            },
+            {
+                "file": "10013.txt",
+                "score": 0.949715
+            },
+            {
+                "file": "10013-8.txt",
+                "score": 0.949703
+            }
+        ]
+    },
+    {
+        "file": "10011-8.txt",
+        "similarTo": [
+            {
+                "file": "10011.txt",
+                "score": 0.999993
+            },
+            {
+                "file": "utrkj10.txt",
+                "score": 0.601733
+            },
+            {
+                "file": "12383.txt",
+                "score": 0.58353
+            },
+            {
+                "file": "12383-8.txt",
+                "score": 0.58345
+            },
+            {
+                "file": "12381.txt",
+                "score": 0.582912
+            }
+        ]
+    },
+    {
+        "file": "10011.txt",
+        "similarTo": [
+            {
+                "file": "10011-8.txt",
+                "score": 0.999998
+            },
+            {
+                "file": "utrkj10.txt",
+                "score": 0.601767
+            },
+            {
+                "file": "12383.txt",
+                "score": 0.583556
+            },
+            {
+                "file": "12383-8.txt",
+                "score": 0.583476
+            },
+            {
+                "file": "12381.txt",
+                "score": 0.582941
+            }
+        ]
+    },
+    {
+        "file": "10012-8.txt",
+        "similarTo": [
+            {
+                "file": "10012.txt",
+                "score": 0.99857
+            },
+            {
+                "file": "zncli10.txt",
+                "score": 0.952858
+            },
+            {
+                "file": "10031-8.txt",
+                "score": 0.952653
+            },
+            {
+                "file": "10031.txt",
+                "score": 0.952652
+            },
+            {
+                "file": "10009.txt",
+                "score": 0.951518
+            }
+        ]
+    },
+    {
+        "file": "10012.txt",
+        "similarTo": [
+            {
+                "file": "10012-8.txt",
+                "score": 0.999561
+            },
+            {
+                "file": "zncli10.txt",
+                "score": 0.953417
+            },
+            {
+                "file": "10031-8.txt",
+                "score": 0.95319
+            },
+            {
+                "file": "10031.txt",
+                "score": 0.953189
+            },
+            {
+                "file": "10009.txt",
+                "score": 0.952055
+            }
+        ]
+    },
+    {
+        "file": "10013-8.txt",
+        "similarTo": [
+            {
+                "file": "10013.txt",
+                "score": 0.999947
+            },
+            {
+                "file": "10018-8.txt",
+                "score": 0.983502
+            },
+            {
+                "file": "10018.txt",
+                "score": 0.983489
+            },
+            {
+                "file": "10014.txt",
+                "score": 0.980401
+            },
+            {
+                "file": "10014-8.txt",
+                "score": 0.980392
+            }
+        ]
+    },
+    {
+        "file": "10013.txt",
+        "similarTo": [
+            {
+                "file": "10013-8.txt",
+                "score": 0.999953
+            },
+            {
+                "file": "10018-8.txt",
+                "score": 0.983503
+            },
+            {
+                "file": "10018.txt",
+                "score": 0.983502
+            },
+            {
+                "file": "10014.txt",
+                "score": 0.9804
+            },
+            {
+                "file": "10014-8.txt",
+                "score": 0.980386
+            }
+        ]
+    },
+    {
+        "file": "10014-8.txt",
+        "similarTo": [
+            {
+                "file": "10014.txt",
+                "score": 0.999991
+            },
+            {
+                "file": "10015.txt",
+                "score": 0.982739
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.981834
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.981827
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.981809
+            }
+        ]
+    },
+    {
+        "file": "10014.txt",
+        "similarTo": [
+            {
+                "file": "10014-8.txt",
+                "score": 0.999993
+            },
+            {
+                "file": "10015.txt",
+                "score": 0.982738
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.981825
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.981813
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.981808
+            }
+        ]
+    },
+    {
+        "file": "10015.txt",
+        "similarTo": [
+            {
+                "file": "10014-8.txt",
+                "score": 0.98434
+            },
+            {
+                "file": "10014.txt",
+                "score": 0.984337
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.982814
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.982797
+            },
+            {
+                "file": "10033-8.txt",
+                "score": 0.982076
+            }
+        ]
+    },
+    {
+        "file": "10016-8.txt",
+        "similarTo": [
+            {
+                "file": "10016.txt",
+                "score": 0.999983
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.984872
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.984871
+            },
+            {
+                "file": "10014-8.txt",
+                "score": 0.984242
+            },
+            {
+                "file": "10014.txt",
+                "score": 0.984235
+            }
+        ]
+    },
+    {
+        "file": "10016.txt",
+        "similarTo": [
+            {
+                "file": "10016-8.txt",
+                "score": 0.999993
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.984884
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.984879
+            },
+            {
+                "file": "10014-8.txt",
+                "score": 0.984273
+            },
+            {
+                "file": "10014.txt",
+                "score": 0.984271
+            }
+        ]
+    },
+    {
+        "file": "10017-8.txt",
+        "similarTo": [
+            {
+                "file": "10017.txt",
+                "score": 0.999992
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.986319
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.986312
+            },
+            {
+                "file": "10019-8.txt",
+                "score": 0.985079
+            },
+            {
+                "file": "10019.txt",
+                "score": 0.985076
+            }
+        ]
+    },
+    {
+        "file": "10017.txt",
+        "similarTo": [
+            {
+                "file": "10017-8.txt",
+                "score": 0.999994
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.986319
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.986317
+            },
+            {
+                "file": "10019.txt",
+                "score": 0.985077
+            },
+            {
+                "file": "10019-8.txt",
+                "score": 0.985075
+            }
+        ]
+    },
+    {
+        "file": "10018-8.txt",
+        "similarTo": [
+            {
+                "file": "10018.txt",
+                "score": 0.99996
+            },
+            {
+                "file": "10013-8.txt",
+                "score": 0.984985
+            },
+            {
+                "file": "10013.txt",
+                "score": 0.98498
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.981135
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.981127
+            }
+        ]
+    },
+    {
+        "file": "10018.txt",
+        "similarTo": [
+            {
+                "file": "10018-8.txt",
+                "score": 0.999971
+            },
+            {
+                "file": "10013.txt",
+                "score": 0.98499
+            },
+            {
+                "file": "10013-8.txt",
+                "score": 0.984984
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.981129
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.981116
+            }
+        ]
+    },
+    {
+        "file": "10019-8.txt",
+        "similarTo": [
+            {
+                "file": "10019.txt",
+                "score": 0.999972
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.985589
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.985583
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.983463
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.983455
+            }
+        ]
+    },
+    {
+        "file": "10019.txt",
+        "similarTo": [
+            {
+                "file": "10019-8.txt",
+                "score": 0.999982
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.985595
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.985595
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.983466
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.983463
+            }
+        ]
+    },
+    {
+        "file": "10020-8.txt",
+        "similarTo": [
+            {
+                "file": "10020.txt",
+                "score": 0.999866
+            },
+            {
+                "file": "canbe10.txt",
+                "score": 0.966809
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.966746
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.966745
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.966518
+            }
+        ]
+    },
+    {
+        "file": "10020.txt",
+        "similarTo": [
+            {
+                "file": "10020-8.txt",
+                "score": 0.999925
+            },
+            {
+                "file": "canbe10.txt",
+                "score": 0.966868
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.966804
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.966802
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.966576
+            }
+        ]
+    },
+    {
+        "file": "10021-8.txt",
+        "similarTo": [
+            {
+                "file": "10021.txt",
+                "score": 0.999981
+            },
+            {
+                "file": "10029-8.txt",
+                "score": 0.865324
+            },
+            {
+                "file": "10029.txt",
+                "score": 0.865324
+            },
+            {
+                "file": "penbr10.txt",
+                "score": 0.858091
+            },
+            {
+                "file": "cfrz10.txt",
+                "score": 0.855178
+            }
+        ]
+    },
+    {
+        "file": "10021.txt",
+        "similarTo": [
+            {
+                "file": "10021-8.txt",
+                "score": 0.999986
+            },
+            {
+                "file": "10029-8.txt",
+                "score": 0.86534
+            },
+            {
+                "file": "10029.txt",
+                "score": 0.86534
+            },
+            {
+                "file": "penbr10.txt",
+                "score": 0.8581
+            },
+            {
+                "file": "cfrz10.txt",
+                "score": 0.855195
+            }
+        ]
+    },
+    {
+        "file": "10022.txt",
+        "similarTo": [
+            {
+                "file": "ajtl10.txt",
+                "score": 0.846443
+            },
+            {
+                "file": "12385-8.txt",
+                "score": 0.841803
+            },
+            {
+                "file": "12385.txt",
+                "score": 0.8418
+            },
+            {
+                "file": "cfrz10.txt",
+                "score": 0.841545
+            },
+            {
+                "file": "10020-8.txt",
+                "score": 0.841496
+            }
+        ]
+    },
+    {
+        "file": "10023.txt",
+        "similarTo": [
+            {
+                "file": "canbe10.txt",
+                "score": 0.970389
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.968785
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.968775
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.965018
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.964836
+            }
+        ]
+    },
+    {
+        "file": "10024-8.txt",
+        "similarTo": [
+            {
+                "file": "10024.txt",
+                "score": 0.99989
+            },
+            {
+                "file": "prhg10.txt",
+                "score": 0.965786
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.964037
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.964016
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.958009
+            }
+        ]
+    },
+    {
+        "file": "10024.txt",
+        "similarTo": [
+            {
+                "file": "10024-8.txt",
+                "score": 0.999838
+            },
+            {
+                "file": "prhg10.txt",
+                "score": 0.96574
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.964
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.96397
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.957966
+            }
+        ]
+    },
+    {
+        "file": "10025-8.txt",
+        "similarTo": [
+            {
+                "file": "10025.txt",
+                "score": 0.999957
+            },
+            {
+                "file": "10021.txt",
+                "score": 0.909714
+            },
+            {
+                "file": "10021-8.txt",
+                "score": 0.909695
+            },
+            {
+                "file": "penbr10.txt",
+                "score": 0.907306
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.900582
+            }
+        ]
+    },
+    {
+        "file": "10025.txt",
+        "similarTo": [
+            {
+                "file": "10025-8.txt",
+                "score": 0.999977
+            },
+            {
+                "file": "10021.txt",
+                "score": 0.909727
+            },
+            {
+                "file": "10021-8.txt",
+                "score": 0.9097
+            },
+            {
+                "file": "penbr10.txt",
+                "score": 0.907342
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.900587
+            }
+        ]
+    },
+    {
+        "file": "10026-8.txt",
+        "similarTo": [
+            {
+                "file": "10026.txt",
+                "score": 0.999984
+            },
+            {
+                "file": "10019.txt",
+                "score": 0.97454
+            },
+            {
+                "file": "10019-8.txt",
+                "score": 0.974508
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.971521
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.971489
+            }
+        ]
+    },
+    {
+        "file": "10026.txt",
+        "similarTo": [
+            {
+                "file": "10026-8.txt",
+                "score": 0.999993
+            },
+            {
+                "file": "10019.txt",
+                "score": 0.974515
+            },
+            {
+                "file": "10019-8.txt",
+                "score": 0.974478
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.971497
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.971461
+            }
+        ]
+    },
+    {
+        "file": "10027.txt",
+        "similarTo": [
+            {
+                "file": "10008.txt",
+                "score": 0.922024
+            },
+            {
+                "file": "10008-8.txt",
+                "score": 0.922024
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.91657
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.916511
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.915411
+            }
+        ]
+    },
+    {
+        "file": "10028.txt",
+        "similarTo": [
+            {
+                "file": "10017-8.txt",
+                "score": 0.8532
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.853142
+            },
+            {
+                "file": "10019-8.txt",
+                "score": 0.85292
+            },
+            {
+                "file": "10019.txt",
+                "score": 0.852865
+            },
+            {
+                "file": "10026-8.txt",
+                "score": 0.846603
+            }
+        ]
+    },
+    {
+        "file": "10029-8.txt",
+        "similarTo": [
+            {
+                "file": "10029.txt",
+                "score": 0.999996
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.817565
+            },
+            {
+                "file": "10020.txt",
+                "score": 0.813344
+            },
+            {
+                "file": "10020-8.txt",
+                "score": 0.813342
+            },
+            {
+                "file": "pgjr10.txt",
+                "score": 0.810829
+            }
+        ]
+    },
+    {
+        "file": "10029.txt",
+        "similarTo": [
+            {
+                "file": "10029-8.txt",
+                "score": 0.999998
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.817566
+            },
+            {
+                "file": "10020.txt",
+                "score": 0.813343
+            },
+            {
+                "file": "10020-8.txt",
+                "score": 0.813341
+            },
+            {
+                "file": "pgjr10.txt",
+                "score": 0.810831
+            }
+        ]
+    },
+    {
+        "file": "10030-8.txt",
+        "similarTo": [
+            {
+                "file": "10030.txt",
+                "score": 0.999979
+            },
+            {
+                "file": "crsnk10.txt",
+                "score": 0.953704
+            },
+            {
+                "file": "canbe10.txt",
+                "score": 0.946253
+            },
+            {
+                "file": "10005.txt",
+                "score": 0.943432
+            },
+            {
+                "file": "10005-8.txt",
+                "score": 0.943426
+            }
+        ]
+    },
+    {
+        "file": "10030.txt",
+        "similarTo": [
+            {
+                "file": "10030-8.txt",
+                "score": 0.999993
+            },
+            {
+                "file": "crsnk10.txt",
+                "score": 0.953717
+            },
+            {
+                "file": "canbe10.txt",
+                "score": 0.946266
+            },
+            {
+                "file": "10005.txt",
+                "score": 0.943444
+            },
+            {
+                "file": "10005-8.txt",
+                "score": 0.943438
+            }
+        ]
+    },
+    {
+        "file": "10031-8.txt",
+        "similarTo": [
+            {
+                "file": "10031.txt",
+                "score": 0.999951
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.975904
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.975903
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.973212
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.973211
+            }
+        ]
+    },
+    {
+        "file": "10031.txt",
+        "similarTo": [
+            {
+                "file": "10031-8.txt",
+                "score": 0.999967
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.975927
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.975922
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.97323
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.973229
+            }
+        ]
+    },
+    {
+        "file": "10032-8.txt",
+        "similarTo": [
+            {
+                "file": "10032.txt",
+                "score": 0.999988
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.987165
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.987164
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.98602
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.986016
+            }
+        ]
+    },
+    {
+        "file": "10032.txt",
+        "similarTo": [
+            {
+                "file": "10032-8.txt",
+                "score": 0.999991
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.987169
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.987165
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.986029
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.986028
+            }
+        ]
+    },
+    {
+        "file": "10033-8.txt",
+        "similarTo": [
+            {
+                "file": "10033.txt",
+                "score": 0.999984
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.978116
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.978112
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.977863
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.977856
+            }
+        ]
+    },
+    {
+        "file": "10033.txt",
+        "similarTo": [
+            {
+                "file": "10033-8.txt",
+                "score": 0.999986
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.97811
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.978102
+            },
+            {
+                "file": "10017.txt",
+                "score": 0.977854
+            },
+            {
+                "file": "10017-8.txt",
+                "score": 0.977843
+            }
+        ]
+    },
+    {
+        "file": "10034-8.txt",
+        "similarTo": [
+            {
+                "file": "10034.txt",
+                "score": 0.999031
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.983508
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.983505
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.983143
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.983142
+            }
+        ]
+    },
+    {
+        "file": "10034.txt",
+        "similarTo": [
+            {
+                "file": "10034-8.txt",
+                "score": 0.999753
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.98421
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.984202
+            },
+            {
+                "file": "10032.txt",
+                "score": 0.983859
+            },
+            {
+                "file": "10032-8.txt",
+                "score": 0.983853
+            }
+        ]
+    },
+    {
+        "file": "12370-8.txt",
+        "similarTo": [
+            {
+                "file": "12370.txt",
+                "score": 0.999999
+            },
+            {
+                "file": "baleng2.txt",
+                "score": 0.964058
+            },
+            {
+                "file": "tecom10.txt",
+                "score": 0.962527
+            },
+            {
+                "file": "mklmt10.txt",
+                "score": 0.961531
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.960356
+            }
+        ]
+    },
+    {
+        "file": "12370.txt",
+        "similarTo": [
+            {
+                "file": "12370-8.txt",
+                "score": 0.999999
+            },
+            {
+                "file": "baleng2.txt",
+                "score": 0.964072
+            },
+            {
+                "file": "tecom10.txt",
+                "score": 0.96253
+            },
+            {
+                "file": "mklmt10.txt",
+                "score": 0.961535
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.960369
+            }
+        ]
+    },
+    {
+        "file": "12372-8.txt",
+        "similarTo": [
+            {
+                "file": "12372.txt",
+                "score": 0.999897
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.988888
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.988885
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.986972
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.986964
+            }
+        ]
+    },
+    {
+        "file": "12372.txt",
+        "similarTo": [
+            {
+                "file": "12372-8.txt",
+                "score": 0.999912
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.988899
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.988898
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.98705
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.987044
+            }
+        ]
+    },
+    {
+        "file": "12373-8.txt",
+        "similarTo": [
+            {
+                "file": "12373.txt",
+                "score": 0.999993
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.988256
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.988184
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.986831
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.986825
+            }
+        ]
+    },
+    {
+        "file": "12373.txt",
+        "similarTo": [
+            {
+                "file": "12373-8.txt",
+                "score": 0.999995
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.988252
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.988187
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.986826
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.986819
+            }
+        ]
+    },
+    {
+        "file": "12374-8.txt",
+        "similarTo": [
+            {
+                "file": "12374.txt",
+                "score": 0.999986
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.989951
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.989948
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.985763
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.985756
+            }
+        ]
+    },
+    {
+        "file": "12374.txt",
+        "similarTo": [
+            {
+                "file": "12374-8.txt",
+                "score": 0.999988
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.989955
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.989953
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.98577
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.985764
+            }
+        ]
+    },
+    {
+        "file": "12375-8.txt",
+        "similarTo": [
+            {
+                "file": "12375.txt",
+                "score": 0.999994
+            },
+            {
+                "file": "prhg10.txt",
+                "score": 0.925082
+            },
+            {
+                "file": "10026.txt",
+                "score": 0.924516
+            },
+            {
+                "file": "10026-8.txt",
+                "score": 0.924502
+            },
+            {
+                "file": "12376-8.txt",
+                "score": 0.923627
+            }
+        ]
+    },
+    {
+        "file": "12375.txt",
+        "similarTo": [
+            {
+                "file": "12375-8.txt",
+                "score": 0.999996
+            },
+            {
+                "file": "prhg10.txt",
+                "score": 0.925083
+            },
+            {
+                "file": "10026.txt",
+                "score": 0.924512
+            },
+            {
+                "file": "10026-8.txt",
+                "score": 0.924499
+            },
+            {
+                "file": "12376-8.txt",
+                "score": 0.923628
+            }
+        ]
+    },
+    {
+        "file": "12376-8.txt",
+        "similarTo": [
+            {
+                "file": "12376.txt",
+                "score": 1
+            },
+            {
+                "file": "prhg10.txt",
+                "score": 0.94166
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.933679
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.933662
+            },
+            {
+                "file": "10024.txt",
+                "score": 0.932503
+            }
+        ]
+    },
+    {
+        "file": "12376.txt",
+        "similarTo": [
+            {
+                "file": "12376-8.txt",
+                "score": 1
+            },
+            {
+                "file": "prhg10.txt",
+                "score": 0.94166
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.933679
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.933662
+            },
+            {
+                "file": "10024.txt",
+                "score": 0.932503
+            }
+        ]
+    },
+    {
+        "file": "12377.txt",
+        "similarTo": [
+            {
+                "file": "10024-8.txt",
+                "score": 0.909747
+            },
+            {
+                "file": "10024.txt",
+                "score": 0.909747
+            },
+            {
+                "file": "prhg10.txt",
+                "score": 0.907855
+            },
+            {
+                "file": "prcpg10.txt",
+                "score": 0.907436
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.905537
+            }
+        ]
+    },
+    {
+        "file": "12378-8.txt",
+        "similarTo": [
+            {
+                "file": "12378.txt",
+                "score": 0.999796
+            },
+            {
+                "file": "10034.txt",
+                "score": 0.963178
+            },
+            {
+                "file": "10034-8.txt",
+                "score": 0.963172
+            },
+            {
+                "file": "10015.txt",
+                "score": 0.962865
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.959818
+            }
+        ]
+    },
+    {
+        "file": "12378.txt",
+        "similarTo": [
+            {
+                "file": "12378-8.txt",
+                "score": 0.999858
+            },
+            {
+                "file": "10034.txt",
+                "score": 0.963205
+            },
+            {
+                "file": "10034-8.txt",
+                "score": 0.963182
+            },
+            {
+                "file": "10015.txt",
+                "score": 0.962909
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.959825
+            }
+        ]
+    },
+    {
+        "file": "12380-8.txt",
+        "similarTo": [
+            {
+                "file": "12380.txt",
+                "score": 1
+            },
+            {
+                "file": "alpsn10.txt",
+                "score": 0.972599
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.967939
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.967937
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.966605
+            }
+        ]
+    },
+    {
+        "file": "12380.txt",
+        "similarTo": [
+            {
+                "file": "12380-8.txt",
+                "score": 1
+            },
+            {
+                "file": "alpsn10.txt",
+                "score": 0.9726
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.967939
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.967937
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.966606
+            }
+        ]
+    },
+    {
+        "file": "12381.txt",
+        "similarTo": [
+            {
+                "file": "zncli10.txt",
+                "score": 0.907396
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.906522
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.906512
+            },
+            {
+                "file": "allyr10.txt",
+                "score": 0.906431
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.904013
+            }
+        ]
+    },
+    {
+        "file": "12383-8.txt",
+        "similarTo": [
+            {
+                "file": "12383.txt",
+                "score": 0.999956
+            },
+            {
+                "file": "10031.txt",
+                "score": 0.966176
+            },
+            {
+                "file": "10031-8.txt",
+                "score": 0.966174
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.965301
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.965296
+            }
+        ]
+    },
+    {
+        "file": "12383.txt",
+        "similarTo": [
+            {
+                "file": "12383-8.txt",
+                "score": 0.999982
+            },
+            {
+                "file": "10031.txt",
+                "score": 0.96617
+            },
+            {
+                "file": "10031-8.txt",
+                "score": 0.966164
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.96535
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.965348
+            }
+        ]
+    },
+    {
+        "file": "12384-8.txt",
+        "similarTo": [
+            {
+                "file": "12384.txt",
+                "score": 0.999998
+            },
+            {
+                "file": "12380-8.txt",
+                "score": 0.946961
+            },
+            {
+                "file": "12380.txt",
+                "score": 0.94696
+            },
+            {
+                "file": "10009.txt",
+                "score": 0.943311
+            },
+            {
+                "file": "grybr10.txt",
+                "score": 0.942359
+            }
+        ]
+    },
+    {
+        "file": "12384.txt",
+        "similarTo": [
+            {
+                "file": "12384-8.txt",
+                "score": 0.999997
+            },
+            {
+                "file": "12380-8.txt",
+                "score": 0.946953
+            },
+            {
+                "file": "12380.txt",
+                "score": 0.946952
+            },
+            {
+                "file": "10009.txt",
+                "score": 0.943303
+            },
+            {
+                "file": "grybr10.txt",
+                "score": 0.942348
+            }
+        ]
+    },
+    {
+        "file": "12385-8.txt",
+        "similarTo": [
+            {
+                "file": "12385.txt",
+                "score": 0.999981
+            },
+            {
+                "file": "10020.txt",
+                "score": 0.803458
+            },
+            {
+                "file": "10020-8.txt",
+                "score": 0.803458
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.793646
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.793642
+            }
+        ]
+    },
+    {
+        "file": "12385.txt",
+        "similarTo": [
+            {
+                "file": "12385-8.txt",
+                "score": 0.999988
+            },
+            {
+                "file": "10020.txt",
+                "score": 0.803467
+            },
+            {
+                "file": "10020-8.txt",
+                "score": 0.803466
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.793652
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.793647
+            }
+        ]
+    },
+    {
+        "file": "12386.txt",
+        "similarTo": [
+            {
+                "file": "50bab10.txt",
+                "score": 0.716555
+            },
+            {
+                "file": "batlf10.txt",
+                "score": 0.713693
+            },
+            {
+                "file": "2babb10.txt",
+                "score": 0.712198
+            },
+            {
+                "file": "3babb10.txt",
+                "score": 0.710364
+            },
+            {
+                "file": "wtrbs10.txt",
+                "score": 0.705407
+            }
+        ]
+    },
+    {
+        "file": "1jcfs10.txt",
+        "similarTo": [
+            {
+                "file": "12375.txt",
+                "score": 0.941179
+            },
+            {
+                "file": "12375-8.txt",
+                "score": 0.941178
+            },
+            {
+                "file": "10026.txt",
+                "score": 0.937929
+            },
+            {
+                "file": "10026-8.txt",
+                "score": 0.937913
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.931929
+            }
+        ]
+    },
+    {
+        "file": "2almy10.txt",
+        "similarTo": [
+            {
+                "file": "10031.txt",
+                "score": 0.955923
+            },
+            {
+                "file": "10031-8.txt",
+                "score": 0.955916
+            },
+            {
+                "file": "mspcd10.txt",
+                "score": 0.951078
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.949274
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.949231
+            }
+        ]
+    },
+    {
+        "file": "2babb10.txt",
+        "similarTo": [
+            {
+                "file": "50bab10.txt",
+                "score": 0.984995
+            },
+            {
+                "file": "3babb10.txt",
+                "score": 0.966462
+            },
+            {
+                "file": "svyrd10.txt",
+                "score": 0.940356
+            },
+            {
+                "file": "baleng2.txt",
+                "score": 0.923932
+            },
+            {
+                "file": "batlf10.txt",
+                "score": 0.921265
+            }
+        ]
+    },
+    {
+        "file": "3babb10.txt",
+        "similarTo": [
+            {
+                "file": "50bab10.txt",
+                "score": 0.988429
+            },
+            {
+                "file": "2babb10.txt",
+                "score": 0.964263
+            },
+            {
+                "file": "svyrd10.txt",
+                "score": 0.9392
+            },
+            {
+                "file": "baleng2.txt",
+                "score": 0.923115
+            },
+            {
+                "file": "batlf10.txt",
+                "score": 0.921785
+            }
+        ]
+    },
+    {
+        "file": "50bab10.txt",
+        "similarTo": [
+            {
+                "file": "3babb10.txt",
+                "score": 0.988143
+            },
+            {
+                "file": "2babb10.txt",
+                "score": 0.98179
+            },
+            {
+                "file": "svyrd10.txt",
+                "score": 0.947766
+            },
+            {
+                "file": "baleng2.txt",
+                "score": 0.932352
+            },
+            {
+                "file": "12386.txt",
+                "score": 0.925918
+            }
+        ]
+    },
+    {
+        "file": "G-1_Corinthians.txt",
+        "similarTo": [
+            {
+                "file": "G-Romans.txt",
+                "score": 0.948036
+            },
+            {
+                "file": "G-2_Corinthians.txt",
+                "score": 0.938536
+            },
+            {
+                "file": "G-Galatians.txt",
+                "score": 0.925508
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.913945
+            },
+            {
+                "file": "G-Hebrews.txt",
+                "score": 0.905886
+            }
+        ]
+    },
+    {
+        "file": "G-1_John.txt",
+        "similarTo": [
+            {
+                "file": "G-Romans.txt",
+                "score": 0.855427
+            },
+            {
+                "file": "G-Hebrews.txt",
+                "score": 0.840374
+            },
+            {
+                "file": "G-James.txt",
+                "score": 0.837279
+            },
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.832943
+            },
+            {
+                "file": "G-2_Corinthians.txt",
+                "score": 0.821563
+            }
+        ]
+    },
+    {
+        "file": "G-1_Peter.txt",
+        "similarTo": [
+            {
+                "file": "G-Romans.txt",
+                "score": 0.929629
+            },
+            {
+                "file": "G-Colossians.txt",
+                "score": 0.925481
+            },
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.913718
+            },
+            {
+                "file": "G-Ephesians.txt",
+                "score": 0.912609
+            },
+            {
+                "file": "G-Hebrews.txt",
+                "score": 0.903758
+            }
+        ]
+    },
+    {
+        "file": "G-1_Thessalonians.txt",
+        "similarTo": [
+            {
+                "file": "G-2_Thessalonians.txt",
+                "score": 0.932796
+            },
+            {
+                "file": "G-2_Corinthians.txt",
+                "score": 0.896158
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.883858
+            },
+            {
+                "file": "G-Colossians.txt",
+                "score": 0.880632
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.857847
+            }
+        ]
+    },
+    {
+        "file": "G-1_Timothy.txt",
+        "similarTo": [
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.916907
+            },
+            {
+                "file": "G-Hebrews.txt",
+                "score": 0.903942
+            },
+            {
+                "file": "G-2_Peter.txt",
+                "score": 0.901587
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.899279
+            },
+            {
+                "file": "G-Ephesians.txt",
+                "score": 0.890664
+            }
+        ]
+    },
+    {
+        "file": "G-2_Corinthians.txt",
+        "similarTo": [
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.93924
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.92408
+            },
+            {
+                "file": "G-Galatians.txt",
+                "score": 0.914369
+            },
+            {
+                "file": "G-Philippians.txt",
+                "score": 0.909743
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.896153
+            }
+        ]
+    },
+    {
+        "file": "G-2_John.txt",
+        "similarTo": [
+            {
+                "file": "G-3_John.txt",
+                "score": 0.879661
+            },
+            {
+                "file": "G-John.txt",
+                "score": 0.854198
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.853983
+            },
+            {
+                "file": "G-Galatians.txt",
+                "score": 0.851578
+            },
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.850791
+            }
+        ]
+    },
+    {
+        "file": "G-2_Peter.txt",
+        "similarTo": [
+            {
+                "file": "G-1_Timothy.txt",
+                "score": 0.909164
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.907674
+            },
+            {
+                "file": "G-Hebrews.txt",
+                "score": 0.903958
+            },
+            {
+                "file": "G-Acts.txt",
+                "score": 0.893929
+            },
+            {
+                "file": "G-Matthew.txt",
+                "score": 0.893108
+            }
+        ]
+    },
+    {
+        "file": "G-2_Thessalonians.txt",
+        "similarTo": [
+            {
+                "file": "G-1_Thessalonians.txt",
+                "score": 0.934587
+            },
+            {
+                "file": "G-Colossians.txt",
+                "score": 0.896311
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.893095
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.892354
+            },
+            {
+                "file": "G-Ephesians.txt",
+                "score": 0.89043
+            }
+        ]
+    },
+    {
+        "file": "G-2_Timothy.txt",
+        "similarTo": [
+            {
+                "file": "G-1_Timothy.txt",
+                "score": 0.909423
+            },
+            {
+                "file": "G-Philippians.txt",
+                "score": 0.905427
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.902688
+            },
+            {
+                "file": "G-2_Peter.txt",
+                "score": 0.901272
+            },
+            {
+                "file": "G-Ephesians.txt",
+                "score": 0.893044
+            }
+        ]
+    },
+    {
+        "file": "G-3_John.txt",
+        "similarTo": [
+            {
+                "file": "G-Galatians.txt",
+                "score": 0.843811
+            },
+            {
+                "file": "G-2_John.txt",
+                "score": 0.840353
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.837687
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.835317
+            },
+            {
+                "file": "G-John.txt",
+                "score": 0.83279
+            }
+        ]
+    },
+    {
+        "file": "G-Acts.txt",
+        "similarTo": [
+            {
+                "file": "G-Luke.txt",
+                "score": 0.958098
+            },
+            {
+                "file": "G-Mark.txt",
+                "score": 0.950102
+            },
+            {
+                "file": "G-Matthew.txt",
+                "score": 0.948853
+            },
+            {
+                "file": "wtrbs10.txt",
+                "score": 0.915838
+            },
+            {
+                "file": "grybr10.txt",
+                "score": 0.915298
+            }
+        ]
+    },
+    {
+        "file": "G-Colossians.txt",
+        "similarTo": [
+            {
+                "file": "G-Ephesians.txt",
+                "score": 0.937861
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.920365
+            },
+            {
+                "file": "G-Philippians.txt",
+                "score": 0.913817
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.899531
+            },
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.895835
+            }
+        ]
+    },
+    {
+        "file": "G-Ephesians.txt",
+        "similarTo": [
+            {
+                "file": "G-Colossians.txt",
+                "score": 0.947468
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.922738
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.922015
+            },
+            {
+                "file": "G-1_Timothy.txt",
+                "score": 0.914688
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.914065
+            }
+        ]
+    },
+    {
+        "file": "G-Galatians.txt",
+        "similarTo": [
+            {
+                "file": "G-Romans.txt",
+                "score": 0.939136
+            },
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.924934
+            },
+            {
+                "file": "G-2_Corinthians.txt",
+                "score": 0.899968
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.889764
+            },
+            {
+                "file": "G-Hebrews.txt",
+                "score": 0.878788
+            }
+        ]
+    },
+    {
+        "file": "G-Hebrews.txt",
+        "similarTo": [
+            {
+                "file": "G-Romans.txt",
+                "score": 0.933219
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.910107
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.910098
+            },
+            {
+                "file": "G-2_Peter.txt",
+                "score": 0.908842
+            },
+            {
+                "file": "pgjr10.txt",
+                "score": 0.908753
+            }
+        ]
+    },
+    {
+        "file": "G-James.txt",
+        "similarTo": [
+            {
+                "file": "G-Matthew.txt",
+                "score": 0.901332
+            },
+            {
+                "file": "G-Hebrews.txt",
+                "score": 0.899614
+            },
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.899122
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.893623
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.88977
+            }
+        ]
+    },
+    {
+        "file": "G-John.txt",
+        "similarTo": [
+            {
+                "file": "G-Matthew.txt",
+                "score": 0.938143
+            },
+            {
+                "file": "G-Luke.txt",
+                "score": 0.928416
+            },
+            {
+                "file": "G-Mark.txt",
+                "score": 0.907024
+            },
+            {
+                "file": "G-Acts.txt",
+                "score": 0.890656
+            },
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.862579
+            }
+        ]
+    },
+    {
+        "file": "G-Jude.txt",
+        "similarTo": [
+            {
+                "file": "G-2_Peter.txt",
+                "score": 0.848367
+            },
+            {
+                "file": "G-1_Timothy.txt",
+                "score": 0.804758
+            },
+            {
+                "file": "G-Ephesians.txt",
+                "score": 0.802761
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.796526
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.791749
+            }
+        ]
+    },
+    {
+        "file": "G-Luke.txt",
+        "similarTo": [
+            {
+                "file": "G-Matthew.txt",
+                "score": 0.985445
+            },
+            {
+                "file": "G-Mark.txt",
+                "score": 0.980261
+            },
+            {
+                "file": "G-Acts.txt",
+                "score": 0.965677
+            },
+            {
+                "file": "G-John.txt",
+                "score": 0.927113
+            },
+            {
+                "file": "wtrbs10.txt",
+                "score": 0.924593
+            }
+        ]
+    },
+    {
+        "file": "G-Mark.txt",
+        "similarTo": [
+            {
+                "file": "G-Luke.txt",
+                "score": 0.980837
+            },
+            {
+                "file": "G-Matthew.txt",
+                "score": 0.97282
+            },
+            {
+                "file": "G-Acts.txt",
+                "score": 0.958116
+            },
+            {
+                "file": "wtrbs10.txt",
+                "score": 0.924801
+            },
+            {
+                "file": "G-John.txt",
+                "score": 0.906038
+            }
+        ]
+    },
+    {
+        "file": "G-Matthew.txt",
+        "similarTo": [
+            {
+                "file": "G-Luke.txt",
+                "score": 0.985501
+            },
+            {
+                "file": "G-Mark.txt",
+                "score": 0.972263
+            },
+            {
+                "file": "G-Acts.txt",
+                "score": 0.955874
+            },
+            {
+                "file": "G-John.txt",
+                "score": 0.936648
+            },
+            {
+                "file": "wtrbs10.txt",
+                "score": 0.91053
+            }
+        ]
+    },
+    {
+        "file": "G-Philemon.txt",
+        "similarTo": [
+            {
+                "file": "G-Philippians.txt",
+                "score": 0.826604
+            },
+            {
+                "file": "G-2_Corinthians.txt",
+                "score": 0.804709
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.792748
+            },
+            {
+                "file": "G-Galatians.txt",
+                "score": 0.785803
+            },
+            {
+                "file": "G-Colossians.txt",
+                "score": 0.782622
+            }
+        ]
+    },
+    {
+        "file": "G-Philippians.txt",
+        "similarTo": [
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.923154
+            },
+            {
+                "file": "G-Colossians.txt",
+                "score": 0.919351
+            },
+            {
+                "file": "G-2_Corinthians.txt",
+                "score": 0.913611
+            },
+            {
+                "file": "G-Ephesians.txt",
+                "score": 0.909302
+            },
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.897403
+            }
+        ]
+    },
+    {
+        "file": "G-Revelation.txt",
+        "similarTo": [
+            {
+                "file": "grybr10.txt",
+                "score": 0.937116
+            },
+            {
+                "file": "mklmt10.txt",
+                "score": 0.932147
+            },
+            {
+                "file": "12370-8.txt",
+                "score": 0.926022
+            },
+            {
+                "file": "12370.txt",
+                "score": 0.92601
+            },
+            {
+                "file": "G-Acts.txt",
+                "score": 0.922223
+            }
+        ]
+    },
+    {
+        "file": "G-Romans.txt",
+        "similarTo": [
+            {
+                "file": "G-1_Corinthians.txt",
+                "score": 0.947596
+            },
+            {
+                "file": "G-Galatians.txt",
+                "score": 0.942338
+            },
+            {
+                "file": "G-Hebrews.txt",
+                "score": 0.932188
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.927137
+            },
+            {
+                "file": "G-2_Corinthians.txt",
+                "score": 0.921305
+            }
+        ]
+    },
+    {
+        "file": "G-Titus.txt",
+        "similarTo": [
+            {
+                "file": "G-1_Timothy.txt",
+                "score": 0.87491
+            },
+            {
+                "file": "G-2_Timothy.txt",
+                "score": 0.851401
+            },
+            {
+                "file": "G-2_Peter.txt",
+                "score": 0.849337
+            },
+            {
+                "file": "G-Romans.txt",
+                "score": 0.819726
+            },
+            {
+                "file": "G-1_Peter.txt",
+                "score": 0.814792
+            }
+        ]
+    },
+    {
+        "file": "ajtl10.txt",
+        "similarTo": [
+            {
+                "file": "cfrz10.txt",
+                "score": 0.923355
+            },
+            {
+                "file": "10027.txt",
+                "score": 0.916234
+            },
+            {
+                "file": "pgjr10.txt",
+                "score": 0.915516
+            },
+            {
+                "file": "mklmt10.txt",
+                "score": 0.913615
+            },
+            {
+                "file": "batlf10.txt",
+                "score": 0.911788
+            }
+        ]
+    },
+    {
+        "file": "allyr10.txt",
+        "similarTo": [
+            {
+                "file": "mspcd10.txt",
+                "score": 0.970448
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.969537
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.969534
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.968725
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.968721
+            }
+        ]
+    },
+    {
+        "file": "alpsn10.txt",
+        "similarTo": [
+            {
+                "file": "12380.txt",
+                "score": 0.971877
+            },
+            {
+                "file": "12380-8.txt",
+                "score": 0.971876
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.970472
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.970469
+            },
+            {
+                "file": "cambp10.txt",
+                "score": 0.967744
+            }
+        ]
+    },
+    {
+        "file": "balen10.txt",
+        "similarTo": [
+            {
+                "file": "wtrbs10.txt",
+                "score": 0.840556
+            },
+            {
+                "file": "mklmt10.txt",
+                "score": 0.827101
+            },
+            {
+                "file": "batlf10.txt",
+                "score": 0.826923
+            },
+            {
+                "file": "prcpg10.txt",
+                "score": 0.82453
+            },
+            {
+                "file": "50bab10.txt",
+                "score": 0.820356
+            }
+        ]
+    },
+    {
+        "file": "baleng2.txt",
+        "similarTo": [
+            {
+                "file": "12370.txt",
+                "score": 0.955427
+            },
+            {
+                "file": "12370-8.txt",
+                "score": 0.955413
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.95449
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.954489
+            },
+            {
+                "file": "10020.txt",
+                "score": 0.953225
+            }
+        ]
+    },
+    {
+        "file": "batlf10.txt",
+        "similarTo": [
+            {
+                "file": "cfrz10.txt",
+                "score": 0.866118
+            },
+            {
+                "file": "10007.txt",
+                "score": 0.855066
+            },
+            {
+                "file": "10007-8.txt",
+                "score": 0.855062
+            },
+            {
+                "file": "50bab10.txt",
+                "score": 0.855013
+            },
+            {
+                "file": "mklmt10.txt",
+                "score": 0.854172
+            }
+        ]
+    },
+    {
+        "file": "bgopr10.txt",
+        "similarTo": [
+            {
+                "file": "rlsl210.txt",
+                "score": 0.7032
+            },
+            {
+                "file": "rlsl110.txt",
+                "score": 0.702929
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.697797
+            },
+            {
+                "file": "svyrd10.txt",
+                "score": 0.694102
+            },
+            {
+                "file": "pntvw10.txt",
+                "score": 0.69299
+            }
+        ]
+    },
+    {
+        "file": "brnte10.txt",
+        "similarTo": [
+            {
+                "file": "10013.txt",
+                "score": 0.927266
+            },
+            {
+                "file": "10013-8.txt",
+                "score": 0.927245
+            },
+            {
+                "file": "10018.txt",
+                "score": 0.925062
+            },
+            {
+                "file": "10018-8.txt",
+                "score": 0.925042
+            },
+            {
+                "file": "cantp10.txt",
+                "score": 0.923533
+            }
+        ]
+    },
+    {
+        "file": "bstjg10.txt",
+        "similarTo": [
+            {
+                "file": "cfrz10.txt",
+                "score": 0.924896
+            },
+            {
+                "file": "10029.txt",
+                "score": 0.920573
+            },
+            {
+                "file": "10029-8.txt",
+                "score": 0.920572
+            },
+            {
+                "file": "10021-8.txt",
+                "score": 0.909497
+            },
+            {
+                "file": "10021.txt",
+                "score": 0.909471
+            }
+        ]
+    },
+    {
+        "file": "cambp10.txt",
+        "similarTo": [
+            {
+                "file": "alpsn10.txt",
+                "score": 0.965606
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.96502
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.965019
+            },
+            {
+                "file": "cantp10.txt",
+                "score": 0.962457
+            },
+            {
+                "file": "12380.txt",
+                "score": 0.962261
+            }
+        ]
+    },
+    {
+        "file": "canbe10.txt",
+        "similarTo": [
+            {
+                "file": "prhg10.txt",
+                "score": 0.977454
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.97306
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.972961
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.971591
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.971588
+            }
+        ]
+    },
+    {
+        "file": "cantp10.txt",
+        "similarTo": [
+            {
+                "file": "allyr10.txt",
+                "score": 0.949462
+            },
+            {
+                "file": "mspcd10.txt",
+                "score": 0.949026
+            },
+            {
+                "file": "10018.txt",
+                "score": 0.948066
+            },
+            {
+                "file": "10018-8.txt",
+                "score": 0.948039
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.945886
+            }
+        ]
+    },
+    {
+        "file": "cfrz10.txt",
+        "similarTo": [
+            {
+                "file": "pgjr10.txt",
+                "score": 0.905866
+            },
+            {
+                "file": "batlf10.txt",
+                "score": 0.897259
+            },
+            {
+                "file": "10029.txt",
+                "score": 0.89421
+            },
+            {
+                "file": "10029-8.txt",
+                "score": 0.894208
+            },
+            {
+                "file": "ajtl10.txt",
+                "score": 0.891522
+            }
+        ]
+    },
+    {
+        "file": "crsnk10.txt",
+        "similarTo": [
+            {
+                "file": "10009.txt",
+                "score": 0.954604
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.953164
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.953162
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.948964
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.948913
+            }
+        ]
+    },
+    {
+        "file": "esbio10.txt",
+        "similarTo": [
+            {
+                "file": "allyr10.txt",
+                "score": 0.924142
+            },
+            {
+                "file": "mspcd10.txt",
+                "score": 0.922778
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.922564
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.922561
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.919263
+            }
+        ]
+    },
+    {
+        "file": "grybr10.txt",
+        "similarTo": [
+            {
+                "file": "10009.txt",
+                "score": 0.952858
+            },
+            {
+                "file": "crsnk10.txt",
+                "score": 0.952285
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.949053
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.949051
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.948153
+            }
+        ]
+    },
+    {
+        "file": "mklmt10.txt",
+        "similarTo": [
+            {
+                "file": "crsnk10.txt",
+                "score": 0.956378
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.955476
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.95547
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.954356
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.954355
+            }
+        ]
+    },
+    {
+        "file": "morem10.txt",
+        "similarTo": [
+            {
+                "file": "12384-8.txt",
+                "score": 0.93241
+            },
+            {
+                "file": "12384.txt",
+                "score": 0.93239
+            },
+            {
+                "file": "grybr10.txt",
+                "score": 0.93083
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.930073
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.930069
+            }
+        ]
+    },
+    {
+        "file": "mspcd10.txt",
+        "similarTo": [
+            {
+                "file": "allyr10.txt",
+                "score": 0.981802
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.979969
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.979965
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.979614
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.9796
+            }
+        ]
+    },
+    {
+        "file": "penbr10.txt",
+        "similarTo": [
+            {
+                "file": "10021.txt",
+                "score": 0.853978
+            },
+            {
+                "file": "10021-8.txt",
+                "score": 0.85394
+            },
+            {
+                "file": "pntvw10.txt",
+                "score": 0.852582
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.845551
+            },
+            {
+                "file": "10025.txt",
+                "score": 0.841769
+            }
+        ]
+    },
+    {
+        "file": "pgjr10.txt",
+        "similarTo": [
+            {
+                "file": "10020.txt",
+                "score": 0.956893
+            },
+            {
+                "file": "10020-8.txt",
+                "score": 0.956891
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.956725
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.956722
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.956463
+            }
+        ]
+    },
+    {
+        "file": "pntvw10.txt",
+        "similarTo": [
+            {
+                "file": "prhsb10.txt",
+                "score": 0.957212
+            },
+            {
+                "file": "rlsl210.txt",
+                "score": 0.952155
+            },
+            {
+                "file": "rlsl110.txt",
+                "score": 0.947561
+            },
+            {
+                "file": "pgjr10.txt",
+                "score": 0.939495
+            },
+            {
+                "file": "12378-8.txt",
+                "score": 0.939033
+            }
+        ]
+    },
+    {
+        "file": "prcpg10.txt",
+        "similarTo": [
+            {
+                "file": "12374-8.txt",
+                "score": 0.941419
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.941419
+            },
+            {
+                "file": "mklmt10.txt",
+                "score": 0.939697
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.938431
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.938422
+            }
+        ]
+    },
+    {
+        "file": "prhg10.txt",
+        "similarTo": [
+            {
+                "file": "canbe10.txt",
+                "score": 0.97667
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.9699
+            },
+            {
+                "file": "12372-8.txt",
+                "score": 0.969824
+            },
+            {
+                "file": "12374.txt",
+                "score": 0.968862
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.968854
+            }
+        ]
+    },
+    {
+        "file": "prhsb10.txt",
+        "similarTo": [
+            {
+                "file": "10029.txt",
+                "score": 0.942137
+            },
+            {
+                "file": "10029-8.txt",
+                "score": 0.942126
+            },
+            {
+                "file": "pgjr10.txt",
+                "score": 0.939189
+            },
+            {
+                "file": "10008.txt",
+                "score": 0.935304
+            },
+            {
+                "file": "10008-8.txt",
+                "score": 0.935303
+            }
+        ]
+    },
+    {
+        "file": "rlsl110.txt",
+        "similarTo": [
+            {
+                "file": "rlsl210.txt",
+                "score": 0.990732
+            },
+            {
+                "file": "pntvw10.txt",
+                "score": 0.942106
+            },
+            {
+                "file": "10007.txt",
+                "score": 0.938496
+            },
+            {
+                "file": "10007-8.txt",
+                "score": 0.938492
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.938472
+            }
+        ]
+    },
+    {
+        "file": "rlsl210.txt",
+        "similarTo": [
+            {
+                "file": "rlsl110.txt",
+                "score": 0.988333
+            },
+            {
+                "file": "pntvw10.txt",
+                "score": 0.946818
+            },
+            {
+                "file": "10007.txt",
+                "score": 0.942843
+            },
+            {
+                "file": "10007-8.txt",
+                "score": 0.942838
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.942768
+            }
+        ]
+    },
+    {
+        "file": "rmlav10.txt",
+        "similarTo": [
+            {
+                "file": "zncli10.txt",
+                "score": 0.827684
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.786291
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.786272
+            },
+            {
+                "file": "baleng2.txt",
+                "score": 0.783035
+            },
+            {
+                "file": "10023.txt",
+                "score": 0.782875
+            }
+        ]
+    },
+    {
+        "file": "sesli10.txt",
+        "similarTo": [
+            {
+                "file": "mspcd10.txt",
+                "score": 0.965306
+            },
+            {
+                "file": "cantp10.txt",
+                "score": 0.962874
+            },
+            {
+                "file": "wldsp10.txt",
+                "score": 0.96189
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.961209
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.9612
+            }
+        ]
+    },
+    {
+        "file": "svyrd10.txt",
+        "similarTo": [
+            {
+                "file": "50bab10.txt",
+                "score": 0.949686
+            },
+            {
+                "file": "3babb10.txt",
+                "score": 0.945595
+            },
+            {
+                "file": "2babb10.txt",
+                "score": 0.945006
+            },
+            {
+                "file": "baleng2.txt",
+                "score": 0.931318
+            },
+            {
+                "file": "prhsb10.txt",
+                "score": 0.919793
+            }
+        ]
+    },
+    {
+        "file": "tecom10.txt",
+        "similarTo": [
+            {
+                "file": "12370.txt",
+                "score": 0.963091
+            },
+            {
+                "file": "12370-8.txt",
+                "score": 0.963089
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.958842
+            },
+            {
+                "file": "12373.txt",
+                "score": 0.958836
+            },
+            {
+                "file": "pgjr10.txt",
+                "score": 0.958532
+            }
+        ]
+    },
+    {
+        "file": "utrkj10.txt",
+        "similarTo": [
+            {
+                "file": "12373.txt",
+                "score": 0.959845
+            },
+            {
+                "file": "12373-8.txt",
+                "score": 0.95984
+            },
+            {
+                "file": "10009.txt",
+                "score": 0.953633
+            },
+            {
+                "file": "crsnk10.txt",
+                "score": 0.950483
+            },
+            {
+                "file": "12383.txt",
+                "score": 0.950067
+            }
+        ]
+    },
+    {
+        "file": "vpasm10.txt",
+        "similarTo": [
+            {
+                "file": "cambp10.txt",
+                "score": 0.90681
+            },
+            {
+                "file": "cantp10.txt",
+                "score": 0.905447
+            },
+            {
+                "file": "10016-8.txt",
+                "score": 0.900227
+            },
+            {
+                "file": "10016.txt",
+                "score": 0.900209
+            },
+            {
+                "file": "2almy10.txt",
+                "score": 0.899842
+            }
+        ]
+    },
+    {
+        "file": "wldsp10.txt",
+        "similarTo": [
+            {
+                "file": "mspcd10.txt",
+                "score": 0.961717
+            },
+            {
+                "file": "10004-8.txt",
+                "score": 0.958933
+            },
+            {
+                "file": "10004.txt",
+                "score": 0.958917
+            },
+            {
+                "file": "2almy10.txt",
+                "score": 0.958521
+            },
+            {
+                "file": "cantp10.txt",
+                "score": 0.95624
+            }
+        ]
+    },
+    {
+        "file": "wtrbs10.txt",
+        "similarTo": [
+            {
+                "file": "ajtl10.txt",
+                "score": 0.920876
+            },
+            {
+                "file": "mklmt10.txt",
+                "score": 0.920123
+            },
+            {
+                "file": "G-Mark.txt",
+                "score": 0.918639
+            },
+            {
+                "file": "cfrz10.txt",
+                "score": 0.91678
+            },
+            {
+                "file": "12386.txt",
+                "score": 0.915856
+            }
+        ]
+    },
+    {
+        "file": "zncli10.txt",
+        "similarTo": [
+            {
+                "file": "12372-8.txt",
+                "score": 0.931111
+            },
+            {
+                "file": "12372.txt",
+                "score": 0.931094
+            },
+            {
+                "file": "10005-8.txt",
+                "score": 0.930169
+            },
+            {
+                "file": "10005.txt",
+                "score": 0.930168
+            },
+            {
+                "file": "12374-8.txt",
+                "score": 0.929612
+            }
+        ]
+    }
+]
