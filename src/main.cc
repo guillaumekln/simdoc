@@ -6,7 +6,7 @@
 #include <tbb/task_scheduler_init.h>
 
 #include "filesystem.hh"
-#include "timer.hh"
+#include "scoped-timer.hh"
 
 namespace po = boost::program_options;
 
@@ -53,17 +53,17 @@ int main(int argc, char* argv[])
   TfIdf tfidf;
 
   {
-    Timer timer("Process documents");
+    ScopedTimer timer("Process documents");
     fs.fetch(tfidf);
   }
 
   {
-    Timer timer("Compute TF-IDF");
+    ScopedTimer timer("Compute TF-IDF");
     tfidf.compute_tfidf();
   }
 
   {
-    Timer timer("Compute similarity");
+    ScopedTimer timer("Compute similarity");
     tfidf.compute_similarity(res, vm["count"].as<unsigned>());
   }
 

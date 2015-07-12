@@ -1,13 +1,13 @@
-#ifndef TIMER_HH
-# define TIMER_HH
+#ifndef SCOPED_TIMER_HH
+# define SCOPED_TIMER_HH
 
 # include <string>
 # include <chrono>
 
-class Timer
+class ScopedTimer
 {
 public:
-  Timer(const std::string& job)
+  ScopedTimer(const std::string& job)
     : _t0(std::chrono::steady_clock::now())
     , _job(job)
   {
@@ -15,7 +15,7 @@ public:
       std::cerr << job << "... ";
   }
 
-  ~Timer()
+  ~ScopedTimer()
   {
     auto diff = std::chrono::steady_clock::now() - _t0;
     double ms = std::chrono::duration_cast<std::chrono::milliseconds>(diff).count();
@@ -29,4 +29,4 @@ private:
   std::string _job;
 };
 
-# endif /* !TIMER_HH */
+# endif /* !SCOPED_TIMER_HH */
