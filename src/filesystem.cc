@@ -1,7 +1,5 @@
 #include "filesystem.hh"
 
-#include <iostream>
-#include <stdexcept>
 #include <fstream>
 
 #include <tbb/parallel_for.h>

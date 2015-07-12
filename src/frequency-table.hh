@@ -3,7 +3,6 @@
 
 # include <unordered_map>
 # include <functional>
-# include <ostream>
 # include <string>
 
 class FrequencyTable

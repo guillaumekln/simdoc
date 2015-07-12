@@ -3,7 +3,6 @@
 
 # include <vector>
 # include <string>
-# include <ostream>
 
 # include "document-frequency.hh"
 # include "frequency-table.hh"

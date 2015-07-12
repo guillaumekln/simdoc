@@ -1,7 +1,6 @@
 #ifndef DOCUMENT_FREQUENCY_HH
 # define DOCUMENT_FREQUENCY_HH
 
-# include <ostream>
 # include <string>
 
 # include "frequency-table.hh"

@@ -1,6 +1,5 @@
 #include "frequency-table.hh"
 
-#include <iostream>
 #include <cmath>
 
 void FrequencyTable::update(const std::string& word)
