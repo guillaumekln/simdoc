@@ -15,16 +15,16 @@
 ./simdoc [options] directory
 ```
 
-See `--help` options for a complete usage.
+See `--help` option for a complete usage.
 
 ## Example
 
 The command
 
 ```shell
-./simdoc -t 8 -c 3 -r data/ > output.json
+./simdoc -t 8 -c 5 -r data/ > output.json
 ```
 
-associates the 3 most similar documents to each document in the `data` directory and its sub-directories using 8 threads.
+associates the 5 most similar documents to each document in the `data` directory and its sub-directories using 8 threads.
 
 See `examples/output.json` for an output example.
