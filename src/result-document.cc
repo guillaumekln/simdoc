@@ -46,6 +46,20 @@ std::ostream& operator<<(std::ostream& os, const ResultDocument& rd)
   return os;
 }
 
+std::ostream& operator<<(std::ostream& os, const std::vector<ResultDocument>& rds)
+{
+  os << '[';
+  for (auto it = rds.cbegin(); it != rds.cend(); it++)
+  {
+    if (it != rds.cbegin())
+      os << ',';
+    os << *it;
+  }
+  os << ']';
+
+  return os;
+}
+
 
 ResultDocument::SimilarDocument::SimilarDocument(const std::string& document, double score)
   : _document(document)

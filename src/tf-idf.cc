@@ -48,6 +48,8 @@ void TfIdf::compute_similarity(std::vector<ResultDocument>& res, size_t max_resu
                         res[i].sort_similar_doc(max_results);
                       }
                     });
+
+  std::sort(res.begin(), res.end());
 }
 
 void TfIdf::merge(const TfIdf& tfidf)

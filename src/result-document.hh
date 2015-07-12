@@ -28,6 +28,7 @@ public:
 
   bool operator<(const ResultDocument& rd) const;
   friend std::ostream& operator<<(std::ostream& os, const ResultDocument& rd);
+  friend std::ostream& operator<<(std::ostream& os, const std::vector<ResultDocument>& rds);
 
 private:
   std::string _document;

@@ -71,16 +71,7 @@ int main(int argc, char* argv[])
     tfidf.compute_similarity(res, vm["count"].as<unsigned>());
   }
 
-  std::sort(res.begin(), res.end());
-
-  std::cout << '[';
-  for (auto it = res.cbegin(); it != res.cend(); it++)
-  {
-    if (it != res.cbegin())
-      std::cout << ',';
-    std::cout << *it;
-  }
-  std::cout << ']' << std::endl;
+  std::cout << res << std::endl;
 
   return 0;
 }
