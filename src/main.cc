@@ -1,32 +1,11 @@
 #include <algorithm>
 #include <iostream>
 #include <string>
-#include <fstream>
-#include <chrono>
 
 #include <tbb/task_scheduler_init.h>
 
 #include "filesystem.hh"
-
-class Timer
-{
-public:
-  Timer(const std::string& job)
-    : _t0(std::chrono::steady_clock::now())
-  {
-    std::cerr << job << "..." << std::endl;
-  }
-
-  ~Timer()
-  {
-    auto diff = std::chrono::steady_clock::now() - _t0;
-    double ms = std::chrono::duration_cast<std::chrono::milliseconds>(diff).count();
-    std::cerr << "Done in " << ms / 1000.0 << " seconds." << std::endl;
-  }
-
-private:
-  std::chrono::steady_clock::time_point _t0;
-};
+#include "timer.hh"
 
 int main(int argc, char* argv[])
 {
