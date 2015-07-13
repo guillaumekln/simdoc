@@ -32,7 +32,7 @@ void TfIdf::compute_similarity(std::vector<ResultDocument>& res, size_t max_resu
   tbb::parallel_for(tbb::blocked_range<size_t>(0, _documents.size()),
                     [&](const tbb::blocked_range<size_t>& r)
                     {
-                      for(size_t i = r.begin(); i != r.end(); ++i)
+                      for (size_t i = r.begin(); i != r.end(); ++i)
                       {
                         res[i] = ResultDocument(_documents[i].identifier(), _documents.size() - 1);
 
