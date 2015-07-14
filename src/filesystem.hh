@@ -10,7 +10,7 @@
 class Filesystem: public DataSource
 {
 public:
-  Filesystem(const std::string& directory, bool recursive);
+  Filesystem(const std::string& input, bool recursive);
 
   virtual void fetch(TfIdf& tfidf) override;
 

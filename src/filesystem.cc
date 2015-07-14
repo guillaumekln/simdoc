@@ -5,9 +5,25 @@
 #include <tbb/parallel_for.h>
 #include <tbb/blocked_range.h>
 
-Filesystem::Filesystem(const std::string& directory, bool recursive)
+Filesystem::Filesystem(const std::string& input, bool recursive)
 {
-  fetch_files(directory, recursive);
+  boost::filesystem::path in(input);
+
+  if (boost::filesystem::is_directory(in))
+    fetch_files(in, recursive);
+  else
+  {
+    std::ifstream list(input);
+    std::string file;
+
+    while (list >> file)
+    {
+      if (!file.empty() && boost::filesystem::exists(file))
+      {
+        _files.push_back(file);
+      }
+    }
+  }
 }
 
 void Filesystem::fetch_files(const boost::filesystem::path& dir, bool recursive)
