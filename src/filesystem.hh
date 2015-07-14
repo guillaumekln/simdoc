@@ -10,16 +10,14 @@
 class Filesystem: public DataSource
 {
 public:
-  Filesystem(const std::string& directory, bool recursive = false);
+  Filesystem(const std::string& directory, bool recursive);
 
   virtual void fetch(TfIdf& tfidf) override;
 
 private:
-  void fetch_rec(const boost::filesystem::path& dir);
+  void fetch_files(const boost::filesystem::path& dir, bool recursive);
 
   std::vector<boost::filesystem::path> _files;
-  boost::filesystem::path _directory;
-  bool _recursive;
 };
 
 # endif /* !FILESYSTEM_HH */
