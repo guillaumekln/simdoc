@@ -12,8 +12,10 @@
 ## Usage
 
 ```shell
-./simdoc [options] directory
+./simdoc [options] input
 ```
+
+where `input` is either a directory or a text file with one file per line.
 
 See `--help` option for a complete usage.
 

@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
     ("help,h", "Display this help")
     ("threads,t", po::value<unsigned>()->default_value(4), "Set the number of threads to use")
     ("count,c", po::value<unsigned>()->default_value(5), "Set the number of similar documents to list")
-    ("dir,d", po::value<std::string>(), "Set the directory to process")
+    ("input,i", po::value<std::string>(), "Set the input: directory or text file with one file per line")
     ("recursive,r", po::bool_switch()->default_value(false), "Enable a recursive directory traversal")
     ;
 
@@ -31,19 +31,19 @@ int main(int argc, char* argv[])
 
   if (vm.count("help"))
   {
-    std::cerr << "Usage: " << argv[0] << " [options] directory" << std::endl
+    std::cerr << "Usage: " << argv[0] << " [options] input" << std::endl
               << desc;
     return 0;
   }
 
   if (!vm.count("dir"))
   {
-    std::cerr << "error: missing directory to process." << std::endl;
+    std::cerr << "error: missing input to process." << std::endl;
     return 1;
   }
   else if (!boost::filesystem::exists(vm["dir"].as<std::string>()))
   {
-    std::cerr << "error: directory does not exist." << std::endl;
+    std::cerr << "error: input does not exist." << std::endl;
     return 1;
   }
 
