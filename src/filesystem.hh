@@ -4,7 +4,6 @@
 # include <boost/filesystem.hpp>
 # include <string>
 # include <vector>
-# include <mutex>
 
 # include "data-source.hh"
 
@@ -17,10 +16,8 @@ public:
 
 private:
   void fetch_rec(const boost::filesystem::path& dir);
-  void safe_merge(TfIdf& main, const TfIdf& aux);
 
   std::vector<boost::filesystem::path> _files;
-  std::mutex _mutex;
   boost::filesystem::path _directory;
   bool _recursive;
 };
