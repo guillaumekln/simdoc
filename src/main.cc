@@ -23,7 +23,7 @@ int main(int argc, char* argv[])
     ;
 
   po::positional_options_description p;
-  p.add("dir", -1);
+  p.add("input", -1);
 
   po::variables_map vm;
   po::store(po::command_line_parser(argc, argv).options(desc).positional(p).run(), vm);
@@ -36,18 +36,18 @@ int main(int argc, char* argv[])
     return 0;
   }
 
-  if (!vm.count("dir"))
+  if (!vm.count("input"))
   {
     std::cerr << "error: missing input to process." << std::endl;
     return 1;
   }
-  else if (!boost::filesystem::exists(vm["dir"].as<std::string>()))
+  else if (!boost::filesystem::exists(vm["input"].as<std::string>()))
   {
     std::cerr << "error: input does not exist." << std::endl;
     return 1;
   }
 
-  Filesystem fs(vm["dir"].as<std::string>(), vm["recursive"].as<bool>());
+  Filesystem fs(vm["input"].as<std::string>(), vm["recursive"].as<bool>());
   tbb::task_scheduler_init init(vm["threads"].as<unsigned>());
   std::vector<ResultDocument> res;
   TfIdf tfidf;
