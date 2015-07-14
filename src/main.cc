@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <memory>
 #include <iostream>
 #include <string>
 
@@ -47,14 +48,15 @@ int main(int argc, char* argv[])
     return 1;
   }
 
-  Filesystem fs(vm["dir"].as<std::string>(), vm["recursive"].as<bool>());
+  std::unique_ptr<DataSource> source(new Filesystem(vm["dir"].as<std::string>(),
+                                                    vm["recursive"].as<bool>()));
   tbb::task_scheduler_init init(vm["threads"].as<unsigned>());
   std::vector<ResultDocument> res;
   TfIdf tfidf;
 
   {
     ScopedTimer timer("Process documents");
-    fs.fetch(tfidf);
+    source->fetch(tfidf);
   }
 
   {
