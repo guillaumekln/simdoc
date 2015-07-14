@@ -23,7 +23,6 @@ add_executable(simdoc
   ${PROJECT_SOURCE_DIR}/src/frequency-table.cc
   ${PROJECT_SOURCE_DIR}/src/document-frequency.cc
   ${PROJECT_SOURCE_DIR}/src/data-source.cc
-  ${PROJECT_SOURCE_DIR}/src/files-list.cc
   ${PROJECT_SOURCE_DIR}/src/filesystem.cc
   ${PROJECT_SOURCE_DIR}/src/tf-idf.cc
   ${PROJECT_SOURCE_DIR}/src/main.cc
