@@ -12,7 +12,10 @@ public:
     , _job(job)
   {
     if (!_job.empty())
+    {
       std::cerr << job << "... ";
+      std::cerr.flush();
+    }
   }
 
   ~ScopedTimer()
