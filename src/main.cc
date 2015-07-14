@@ -20,6 +20,7 @@ int main(int argc, char* argv[])
     ("count,c", po::value<unsigned>()->default_value(5), "Set the number of similar documents to list")
     ("input,i", po::value<std::string>(), "Set the input: directory or text file with one file per line")
     ("recursive,r", po::bool_switch()->default_value(false), "Enable a recursive directory traversal")
+    ("with-times", po::bool_switch()->default_value(false), "Display execution times")
     ;
 
   po::positional_options_description p;
@@ -49,21 +50,23 @@ int main(int argc, char* argv[])
 
   Filesystem fs(vm["input"].as<std::string>(), vm["recursive"].as<bool>());
   tbb::task_scheduler_init init(vm["threads"].as<unsigned>());
+  bool with_time = vm["with-times"].as<bool>();
+
   std::vector<ResultDocument> res;
   TfIdf tfidf;
 
   {
-    ScopedTimer timer("Process documents");
+    ScopedTimer timer(with_time ? "Process documents" : "");
     fs.fetch(tfidf);
   }
 
   {
-    ScopedTimer timer("Compute TF-IDF");
+    ScopedTimer timer(with_time ? "Compute TF-IDF" : "");
     tfidf.compute_tfidf();
   }
 
   {
-    ScopedTimer timer("Compute similarity");
+    ScopedTimer timer(with_time ? "Compute similarity" : "");
     tfidf.compute_similarity(res, vm["count"].as<unsigned>());
   }
 
